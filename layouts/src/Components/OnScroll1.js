@@ -35,7 +35,7 @@ class OnScroll1 extends Component{
                             </p>
                         </div>
                         <WavyCards /> 
-                        <span><CardsGroup /></span>  
+                        <CardsGroup /> 
                         
                     </div>
                 </div>
