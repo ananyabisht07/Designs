@@ -10,8 +10,14 @@ body{
   height: 210vh;
 }
 
+.cardsGroup-bg{
+  background: linear-gradient( #0d0120, #302a3a) ;
+  width: 100%;  
+  padding: 150px;
+}
+
 /* OnScroll2 */
-section {
+.background-img {
   position: fixed;
   top: 0;
   left: 0;
@@ -26,7 +32,6 @@ section {
   position: relative;
   margin-top: 200vh;
   background: linear-gradient( #064052,  #5b8186) ;
-  padding: 100px;
 }
 
 .layer h2{
@@ -53,6 +58,76 @@ section {
   color: rgb(92, 100, 107);
   font-weight: bolder;
 }
+
+/* WavyCards */
+
+.wavy-card{
+  margin-top: 7em;
+  margin-bottom: 7em;
+  position: relative;
+  width: 300px;
+  height: 400px;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  -webkit-box-reflect: below 15px linear-gradient(
+    transparent, transparent, rgba(0,0,0,0.2));
+}
+
+.wavy-card:hover{
+  color: #000;
+  cursor: pointer;
+}
+
+.wavy-card:before{
+  content: '';
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  width: 100%;
+  height: 100%;
+  border: 4px solid #fff;
+  background: #000;
+  filter: url(#wavy);
+}
+
+.wavy-card:hover:before{
+  background: #fff;
+  transition: 0.5s;
+}
+
+.card-content{
+  position: absolute;
+  padding: 20px;
+  text-align: center;
+  transition: 0.5s;
+  font-weight: 600;
+}
+
+
+.wavy-card:after{
+  content: '';
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  width: 50%;
+  height: 100%;
+  border: 4px solid #fff;
+  border-right: none;
+  filter: url(#wavy);
+  background:rgba(255, 255, 255, 0.1);
+}
+
+svg {
+  width: 0;
+  height: 0;
+}
+
+
+
+
+
 
 /* OnScroll1 */
 
@@ -83,7 +158,7 @@ section .curve img {
 } */
 
 
-
+/* Animated bg1 */
 .heading{
   font-size: 3em;
   color: antiquewhite;
@@ -190,6 +265,8 @@ section .curve img {
     opacity: 0;
   }
 }
+
+/* CardsGroup */
 
 .card-style{
   position: relative;
