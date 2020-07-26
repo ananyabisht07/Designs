@@ -1,3 +1,4 @@
+/* Bg.js */
 *{
   margin: 0;
   padding: 0;
@@ -55,4 +56,17 @@ section img{
   color: #fff;
   font-size: 10em;
   z-index: 1;
+}
+
+/* Parallax */
+.container-style{
+  background: #f9f9f9;
+  font-size: 17px;
+}
+
+.parallaxx{
+  background: url("/img/bg7.jpg") no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 500px;
 }
