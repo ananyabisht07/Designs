@@ -1,5 +1,5 @@
 /* Bg.js */
-*{
+/* *{
   margin: 0;
   padding: 0;
 }
@@ -56,7 +56,7 @@ section img{
   color: #fff;
   font-size: 10em;
   z-index: 1;
-}
+} */
 
 /* Parallax */
 .container-style{
@@ -70,3 +70,65 @@ section img{
   background-attachment: fixed;
   height: 500px;
 }
+
+/* ParallaxHeader */
+
+h1{
+  color: #ccc;
+  font-weight: 300;
+}
+
+.content article{
+  padding: 100px 0;
+  max-width: 640px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+
+
+.bird-box{
+  position: relative;
+  height: 600px;
+  background: url(/img/bird-bg.jpg);
+  object-fit: contain;
+  background-attachment: fixed;
+  background-size: auto 600px;
+  overflow: hidden;
+}
+
+.fore-bird{
+  width: 960px;
+  height: 733px;
+  background: url(/img/fore-bird.png);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  position: absolute;
+  left: 50%;
+  margin-left: -480px;
+  top: 380px;
+}
+
+
+.logoo{
+  height: 100px;
+  width: 100%;
+  background-image: url(/img/black-bird-logo.svg) ;
+  background-position: center;
+  top: 50%;
+  margin-top: -50px;
+  position: absolute;
+  background-repeat: no-repeat;
+}
+
+.back-bird{
+  width: 960px;
+  height: 298px;
+  background-image: url(/img/back-bird.png);
+  background-repeat: no-repeat;
+  background-position: top left;
+  position: absolute;
+  left: 50%;
+  margin-left: -480px;
+}
+
