@@ -132,3 +132,64 @@ h1{
   margin-left: -480px;
 }
 
+.large-window{
+  height: 640px;
+  background-image: url(/img/model2.jpg);
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  border-radius: 50%;
+}
+
+/* Slider */
+
+.carouselStyle{
+  height: 100vh;
+  position: relative;
+}
+
+.carouItem img{
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.slideOverlay{
+  position: absolute;
+  height:100%;
+  min-height: 810px;
+}
+.slideOverlay-fill1{
+  fill: rgba(172, 199, 240, 0.829);
+}
+.slideOverlay-fill2{
+  fill: rgba(211, 108, 122, 0.822);
+}
+.slideOverlay-fill3{
+  fill: rgba(65, 174, 207, 0.828);
+}
+.slideOverlay-fill4{
+  fill: rgba(28, 17, 59, 0.828);
+}
+
+.slide__text{
+  position: absolute;
+  color: #fff;
+  margin-top: 120px;
+  padding: 60px;
+  font-family: 'Noto Serif', serif;
+}
+
+.slide__text-heading{
+  font-size: 3rem;
+  margin-bottom: 2rem;
+  font-family: 'Ranchers', cursive;
+  letter-spacing: 3px;
+}
+
+.slide__text-desc{
+  font-size: 21px;
+}
