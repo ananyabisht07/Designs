@@ -9,16 +9,24 @@ Inside [**parallax_scrolling**](https://github.com/ananyabisht07/Designs/tree/ma
 ![SLider](/layouts/public/img/slider.JPG)
 
 2. **Bg(with Parallax)**
+
 With parallax effect
-![SLider](/layouts/public/img/Bg(Parallax).JPG)
+
+![Bg](/layouts/public/img/Bg(Parallax).JPG)
 
 
 3. **ParallaxHeader**
+
 With parallax effect
+
 ![ParallaxHeader](/layouts/public/img/ParallaxHeader1.JPG)
 
 ![ParallaxHeader](/layouts/public/img/ParallaxHeader2.JPG)
 
+
+
 4. **PeopleParallax**
+
 With parallax effect
-![PeopleParallax]()
+
+![PeopleParallax](/layouts/public/img/PeopleParallax.JPG)
