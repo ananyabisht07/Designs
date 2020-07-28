@@ -1,5 +1,5 @@
 /* Bg.js */
-/* *{
+*{
   margin: 0;
   padding: 0;
 }
@@ -56,7 +56,7 @@ section img{
   color: #fff;
   font-size: 10em;
   z-index: 1;
-} */
+}
 
 /* Parallax */
 .container-style{
@@ -73,19 +73,24 @@ section img{
 
 /* ParallaxHeader */
 
-h1{
-  color: #ccc;
-  font-weight: 300;
+.content h1{
+  color: rgb(218, 208, 208);
+  font-weight: 700;
+  font-size: 3em;
 }
 
 .content article{
-  padding: 100px 0;
-  max-width: 640px;
+  background: rgb(141, 134, 134);
+  padding: 100px 50px;
+  max-width: 1000px;
   margin: 0 auto;
+  font-size: 17px;
   text-align: center;
 }
 
-
+.pageStyle{
+  background: rgb(192, 184, 184);
+}
 
 .bird-box{
   position: relative;
@@ -133,7 +138,7 @@ h1{
 }
 
 .large-window{
-  height: 640px;
+  height: 800px;
   background-image: url(/img/model2.jpg);
   background-position: top center;
   background-repeat: no-repeat;

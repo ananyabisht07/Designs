@@ -10,7 +10,7 @@ class ParallaxHeader extends Component{
     render(){
         return(
         
-            <div>
+            <div className="pageStyle">
                 <div className="bird-box " >
                     <div className="logoo"></div>
                     <div className="fore-bird"></div>

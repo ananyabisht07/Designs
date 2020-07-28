@@ -19,18 +19,18 @@ class Slider extends Component{
                     </Animated>
 
                     <Container>
-                        <Row className="" >
-                            <Col md={6} className="text-center">
-                                <Animated animationIn="zoomInDown" animationInDuration="3000">
+                        <Animated animationIn="zoomInDown" animationInDuration="3000">
+                            <Row className="" >
+                                <Col md={6} className="text-center">
                                     <div class="slide__text">
                                         <h2 class="slide__text-heading">Project Name 1</h2>
                                         <p class="slide__text-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio veniam minus illo 
                                         debitis nihil animi facere, doloremque voluptate tempore quia. Lorem ipsum dolor sit amet, consectetur adipisicing 
                                         elit. Distinctio veniam minus illo debitis nihil animi facere, doloremque voluptate tempore quia.</p>
-                                    </div>
-                                </Animated>
-                            </Col>
-                        </Row>
+                                    </div> 
+                                </Col>
+                            </Row>
+                        </Animated>
                     </Container>
                     
                     
@@ -59,18 +59,18 @@ class Slider extends Component{
                     </Animated>
 
                     <Container>
-                        <Row className="" >
-                            <Col md={6} className="text-center">
-                                <Animated animationIn="zoomInDown" animationInDuration="3000">
-                                    <div class="slide__text">
-                                        <h2 class="slide__text-heading">Project Name 2</h2>
-                                        <p class="slide__text-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio veniam minus illo 
-                                        debitis nihil animi facere, doloremque voluptate tempore quia. Lorem ipsum dolor sit amet, consectetur adipisicing 
-                                        elit. Distinctio veniam minus illo debitis nihil animi facere, doloremque voluptate tempore quia.</p>
-                                    </div>
-                                </Animated>
-                            </Col>
-                        </Row>
+                        <Animated animationIn="zoomInDown" animationInDuration="3000">
+                            <Row className="" >
+                                <Col md={6} className="text-center">
+                                        <div class="slide__text">
+                                            <h2 class="slide__text-heading">Project Name 2</h2>
+                                            <p class="slide__text-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio veniam minus illo 
+                                            debitis nihil animi facere, doloremque voluptate tempore quia. Lorem ipsum dolor sit amet, consectetur adipisicing 
+                                            elit. Distinctio veniam minus illo debitis nihil animi facere, doloremque voluptate tempore quia.</p>
+                                        </div>
+                                </Col>
+                            </Row>
+                        </Animated>
                     </Container>
 
                     <img
@@ -96,18 +96,18 @@ class Slider extends Component{
 
 
                     <Container>
-                        <Row className="" >
-                            <Col md={6} className="text-center">
-                                <Animated animationIn="zoomInDown" animationInDuration="3000">
-                                    <div class="slide__text">
-                                        <h2 class="slide__text-heading">Project Name 3</h2>
-                                        <p class="slide__text-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio veniam minus illo 
-                                        debitis nihil animi facere, doloremque voluptate tempore quia. Lorem ipsum dolor sit amet, consectetur adipisicing 
-                                        elit. Distinctio veniam minus illo debitis nihil animi facere, doloremque voluptate tempore quia.</p>
-                                    </div>
-                                </Animated>
-                            </Col>
-                        </Row>
+                        <Animated animationIn="zoomInDown" animationInDuration="3000">
+                            <Row className="" >
+                                <Col md={6} className="text-center">
+                                        <div class="slide__text">
+                                            <h2 class="slide__text-heading">Project Name 3</h2>
+                                            <p class="slide__text-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio veniam minus illo 
+                                            debitis nihil animi facere, doloremque voluptate tempore quia. Lorem ipsum dolor sit amet, consectetur adipisicing 
+                                            elit. Distinctio veniam minus illo debitis nihil animi facere, doloremque voluptate tempore quia.</p>
+                                        </div>
+                                </Col>
+                            </Row>
+                        </Animated>
                     </Container>
 
                     
@@ -134,18 +134,18 @@ class Slider extends Component{
 
 
                     <Container>
-                        <Row className="" >
-                            <Col md={6} className="text-center">
-                                <Animated animationIn="zoomInDown" animationInDuration="3000">
-                                    <div class="slide__text">
-                                        <h2 class="slide__text-heading">Project Name 3</h2>
-                                        <p class="slide__text-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio veniam minus illo 
-                                        debitis nihil animi facere, doloremque voluptate tempore quia. Lorem ipsum dolor sit amet, consectetur adipisicing 
-                                        elit. Distinctio veniam minus illo debitis nihil animi facere, doloremque voluptate tempore quia.</p>
-                                    </div>
-                                </Animated>
-                            </Col>
-                        </Row>
+                        <Animated animationIn="zoomInDown" animationInDuration="3000">
+                            <Row className="" >
+                                <Col md={6} className="text-center">
+                                        <div class="slide__text">
+                                            <h2 class="slide__text-heading">Project Name 4</h2>
+                                            <p class="slide__text-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio veniam minus illo 
+                                            debitis nihil animi facere, doloremque voluptate tempore quia. Lorem ipsum dolor sit amet, consectetur adipisicing 
+                                            elit. Distinctio veniam minus illo debitis nihil animi facere, doloremque voluptate tempore quia.</p>
+                                        </div>
+                                </Col>
+                            </Row>
+                        </Animated>
                     </Container>
 
 
