@@ -1,6 +1,3 @@
-This repository contains different layouts and some parallax designs which can be brought into use.
-
-Inside [**parallax_scrolling**](https://github.com/ananyabisht07/Designs/tree/master/parallax_scrolling) there are following components :
 
 
 
