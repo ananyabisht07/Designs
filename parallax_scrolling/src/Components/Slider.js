@@ -8,7 +8,7 @@ class Slider extends Component{
     
     render(){
         return(
-            
+            <div>
             <Carousel className="carou">
                 <Carousel.Item className="carouItem">
 
@@ -163,6 +163,8 @@ class Slider extends Component{
                 </Carousel.Item>
 
             </Carousel>
+            
+            </div>
         );
     }
 }
