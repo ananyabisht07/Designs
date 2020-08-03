@@ -9,6 +9,14 @@
 min-height: 1500px;
 }
 
+.header {
+  background-color: rgba(37, 37, 36, 0.726);
+  font-size: 25px;
+  font-weight: bolder;
+  margin-top:0px ;
+  
+}
+
 /* Slider */
 
 .carouselStyle{
@@ -28,6 +36,9 @@ min-height: 1500px;
   height:100%;
   min-height: 810px;
 }
+.slideOverlay-fill5{
+  fill: rgba(236, 193, 187, 0.829);
+}
 .slideOverlay-fill1{
   fill: rgba(126, 71, 35, 0.829);
 }
@@ -39,6 +50,14 @@ min-height: 1500px;
 }
 .slideOverlay-fill4{
   fill: rgba(41, 34, 20, 0.828);
+}
+
+.slide__text1{
+  position: absolute;
+  color: rgba(139, 72, 72, 0.911);
+  margin-top: 120px;
+  padding: 60px;
+  font-family: 'Noto Serif', serif;
 }
 
 .slide__text{
@@ -58,4 +77,116 @@ min-height: 1500px;
 
 .slide__text-desc{
   font-size: 21px;
+}
+
+
+/* CardsGroup */
+
+.card-bg{
+  border: none;
+  background: #eec8c6 !important;
+  transition: 0.5s ease-in-out;
+  box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.5);
+}
+
+.card-bg:before{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 100% ;
+  height: 100%;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgb(14, 13, 15));
+  transition: 0.5s all;
+  opacity: 0;
+  z-index: 2;
+}
+
+.card-bg:hover{
+  transform: translateY(20px);
+  cursor: pointer;
+}
+.card-bg:hover:before{
+  opacity: 1;
+}
+.heading1{
+  color:  #1b1a1a;
+  font-weight: bolder !important;
+  font-size: 32px !important;
+  font-family: "Times New Roman" ;
+  
+}
+
+.card-style{
+  position: relative;
+  display: flex;
+  box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.5);
+  transition: 0.5s ease-in-out;
+  height: 100%;
+  border-radius: 13px !important;
+}
+
+.card-style:hover{
+  transform: translateY(20px);
+  cursor: pointer;
+}
+
+.card-style:before{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 100% ;
+  height: 100%;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgb(14, 13, 15));
+  transition: 0.5s all;
+  opacity: 0;
+  z-index: 2;
+}
+
+.card-style:hover:before{
+  opacity: 1;
+}
+
+.card-style .info{
+  z-index: 3;
+  color: #fff;
+  position: relative;
+  opacity: 0;
+  transform: translateY(30px);
+  transition: 0.5s all ;
+  letter-spacing: 1px;
+  font-size: 17px;
+  font-weight: 400;
+}
+
+.card-style:hover .info{
+  opacity: 1;
+  transform: translateY(0px)
+  
+}
+
+.card-style img{
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.card-style Button{
+  background: #fff;
+  font-size: 16px;
+  color: #000;
+  font-weight: bold;
+  transition: 0.4s ease-in-out;
+  border: none;
+}
+
+
+
+.card-style Button:hover{
+  box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.5);
+  background: rgb(156, 73, 73);
 }

@@ -10,6 +10,42 @@ class Slider extends Component{
         return(
             <div>
             <Carousel className="carou">
+            <Carousel.Item className="carouItem">
+
+                    <Animated animationIn="slideInLeft" animationInDuration="2000">
+                        <svg className="slideOverlay" viewBox="0 0 720 405">
+                            <path className="slideOverlay-fill5" d="M0,0 250,0 700,405 0,405"  />
+                        </svg>
+                    </Animated>
+
+                    <Container>
+                        <Animated animationIn="zoomInDown" animationInDuration="3000">
+                            <Row className="" >
+                                <Col md={6} className="text-center">
+                                    <div className="slide__text1">
+                                        <h2 className="slide__text-heading">Project Name 1</h2>
+                                        <p className="slide__text-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio veniam minus illo 
+                                        debitis nihil animi facere, doloremque voluptate tempore quia. Lorem ipsum dolor sit amet, consectetur adipisicing 
+                                        elit. Distinctio veniam minus illo debitis nihil animi facere, doloremque voluptate tempore quia.</p>
+                                    </div> 
+                                </Col>
+                            </Row>
+                        </Animated>
+                    </Container>
+                    <img
+                        className="d-block w-100"
+                        src="img/12.jpg"
+                        alt="First slide"
+                    />
+                    <Carousel.Caption>
+                        <Animated animationIn="slideInLeft" animationInDuration="2000">
+                        <h3>First slide label</h3>
+                        </Animated>
+                        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                    </Carousel.Caption>
+                </Carousel.Item>
+                
+
                 <Carousel.Item className="carouItem">
 
                     <Animated animationIn="slideInLeft" animationInDuration="2000">
@@ -22,9 +58,9 @@ class Slider extends Component{
                         <Animated animationIn="zoomInDown" animationInDuration="3000">
                             <Row className="" >
                                 <Col md={6} className="text-center">
-                                    <div class="slide__text">
-                                        <h2 class="slide__text-heading">Project Name 1</h2>
-                                        <p class="slide__text-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio veniam minus illo 
+                                    <div className="slide__text">
+                                        <h2 className="slide__text-heading">Project Name 1</h2>
+                                        <p className="slide__text-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio veniam minus illo 
                                         debitis nihil animi facere, doloremque voluptate tempore quia. Lorem ipsum dolor sit amet, consectetur adipisicing 
                                         elit. Distinctio veniam minus illo debitis nihil animi facere, doloremque voluptate tempore quia.</p>
                                     </div> 
@@ -32,21 +68,16 @@ class Slider extends Component{
                             </Row>
                         </Animated>
                     </Container>
-                    
-                    
-
                     <img
                         className="d-block w-100"
                         src="img/6.jpeg"
                         alt="First slide"
                     />
                     <Carousel.Caption>
-                    <Animated animationIn="slideInLeft" animationInDuration="2000">
-                    <h3>First slide label</h3>
-                    </Animated>
-
-                    
-                    <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                        <Animated animationIn="slideInLeft" animationInDuration="2000">
+                        <h3>First slide label</h3>
+                        </Animated>
+                        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
                     </Carousel.Caption>
                 </Carousel.Item>
                 
@@ -62,9 +93,9 @@ class Slider extends Component{
                         <Animated animationIn="zoomInDown" animationInDuration="3000">
                             <Row className="" >
                                 <Col md={6} className="text-center">
-                                        <div class="slide__text">
-                                            <h2 class="slide__text-heading">Project Name 2</h2>
-                                            <p class="slide__text-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio veniam minus illo 
+                                        <div className="slide__text">
+                                            <h2 className="slide__text-heading">Project Name 2</h2>
+                                            <p className="slide__text-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio veniam minus illo 
                                             debitis nihil animi facere, doloremque voluptate tempore quia. Lorem ipsum dolor sit amet, consectetur adipisicing 
                                             elit. Distinctio veniam minus illo debitis nihil animi facere, doloremque voluptate tempore quia.</p>
                                         </div>
@@ -99,9 +130,9 @@ class Slider extends Component{
                         <Animated animationIn="zoomInDown" animationInDuration="3000">
                             <Row className="" >
                                 <Col md={6} className="text-center">
-                                        <div class="slide__text">
-                                            <h2 class="slide__text-heading">Project Name 3</h2>
-                                            <p class="slide__text-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio veniam minus illo 
+                                        <div className="slide__text">
+                                            <h2 className="slide__text-heading">Project Name 3</h2>
+                                            <p className="slide__text-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio veniam minus illo 
                                             debitis nihil animi facere, doloremque voluptate tempore quia. Lorem ipsum dolor sit amet, consectetur adipisicing 
                                             elit. Distinctio veniam minus illo debitis nihil animi facere, doloremque voluptate tempore quia.</p>
                                         </div>
@@ -137,9 +168,9 @@ class Slider extends Component{
                         <Animated animationIn="zoomInDown" animationInDuration="3000">
                             <Row className="" >
                                 <Col md={6} className="text-center">
-                                        <div class="slide__text">
-                                            <h2 class="slide__text-heading">Project Name 4</h2>
-                                            <p class="slide__text-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio veniam minus illo 
+                                        <div className="slide__text">
+                                            <h2 className="slide__text-heading">Project Name 4</h2>
+                                            <p className="slide__text-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio veniam minus illo 
                                             debitis nihil animi facere, doloremque voluptate tempore quia. Lorem ipsum dolor sit amet, consectetur adipisicing 
                                             elit. Distinctio veniam minus illo debitis nihil animi facere, doloremque voluptate tempore quia.</p>
                                         </div>
