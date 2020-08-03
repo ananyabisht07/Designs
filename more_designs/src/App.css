@@ -1,0 +1,29 @@
+*{
+  margin: 0;
+  padding: 0;
+  background: black;
+}
+
+section{
+  height: 100vh;
+}
+
+.bg0{
+  background: linear-gradient(rgb(27, 6, 66), rgb(0, 109, 128));
+  color: antiquewhite;
+}
+
+ .bg1{
+  background: linear-gradient(rgb(74, 177, 15), rgb(243, 209, 16));
+  color: rgb(32, 31, 30);
+}
+ .bg2{
+  background: linear-gradient(rgb(30, 2, 46), rgba(17, 155, 209, 0.685));
+  color: antiquewhite;
+}
+ .bg3{
+  background: linear-gradient(rgb(190, 14, 102), rgb(245, 10, 49));
+ }
+ .bg4{
+  background: linear-gradient(rgb(185, 24, 3), rgb(240, 147, 8));
+ }
