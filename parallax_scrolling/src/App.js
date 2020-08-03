@@ -6,14 +6,14 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 //import Parallax from './Components/Parallax';
 //import ReactPara from './Components/ReactPara';
 //import ParallaxHeader from './Components/ParallaxHeader';
-import PeopleParallax from './Components/PeopleParallax';
-//import Slider from './Components/Slider';
+//import PeopleParallax from './Components/PeopleParallax';
+import Slider from './Components/Slider';
 
 function App() {
   return (
     
-      <PeopleParallax />
-    
+      <Slider />
+  
   );
 }
 

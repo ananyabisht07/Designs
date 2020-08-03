@@ -1,38 +1,61 @@
-.App {
-  text-align: center;
+*{
+  margin: 0;
+  padding: 0;
+} 
+
+ body{
+
+  background: linear-gradient(rgb(0, 0, 0), rgb(14, 15, 15));
+min-height: 1500px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Slider */
+
+.carouselStyle{
+  height: 100vh;
+  position: relative;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.carouItem img{
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.slideOverlay{
+  position: absolute;
+  height:100%;
+  min-height: 810px;
+}
+.slideOverlay-fill1{
+  fill: rgba(126, 71, 35, 0.829);
+}
+.slideOverlay-fill2{
+  fill: rgba(49, 56, 68, 0.925);
+}
+.slideOverlay-fill3{
+  fill: rgba(30, 33, 39, 0.828);
+}
+.slideOverlay-fill4{
+  fill: rgba(41, 34, 20, 0.828);
 }
 
-.App-link {
-  color: #61dafb;
+.slide__text{
+  position: absolute;
+  color: #fff;
+  margin-top: 120px;
+  padding: 60px;
+  font-family: 'Noto Serif', serif;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.slide__text-heading{
+  font-size: 3rem;
+  margin-bottom: 2rem;
+  font-family: 'Ranchers', cursive;
+  letter-spacing: 3px;
+}
+
+.slide__text-desc{
+  font-size: 21px;
 }
