@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Carousel, Row, Col, Container } from 'react-bootstrap'
+import { Carousel, Row, Col, Container, Image } from 'react-bootstrap'
 import {Animated} from "react-animated-css";
 
 
@@ -19,13 +19,16 @@ class Slider extends Component{
                     </Animated>
 
                     <Container>
-                        <Animated animationIn="zoomInDown" animationInDuration="3000">
+                        <Animated animationIn="fadeInUp" animationInDuration="5000">
                             <Row className="" >
                                 <Col md={6} className="text-center">
                                     <div className="slide__text1">
                                         
-                                        <p><h1 className="slide__text-heading">WELCOME</h1></p>
+                                        <h1 className="slide__text-heading">WELCOME</h1>
+                                        <img className="welcome-img" src="img/welcome.png"  />
+                                        
                                     </div> 
+                                    
                                 </Col>
                             </Row>
                         </Animated>

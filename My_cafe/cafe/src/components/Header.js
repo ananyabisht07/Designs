@@ -18,13 +18,13 @@ function Header() {
                 <Navbar.Collapse  id="responsive-navbar-nav">
                     <Nav navbar  className="ml-auto">
                     <NavItem>
-                        <NavLink style={{color:"#ffe6e6"}} className="nav-link"  to='/home'><span className="fa fa-home fa-lg"></span> HOME</NavLink>
+                        <NavLink style={{color:"#fff"}} className="nav-link"  to='/home'><span className="fa fa-home fa-lg"></span> HOME</NavLink>
                     </NavItem>
                     <NavItem>
-                        <NavLink style={{color:"#ffe6e6"}} className="nav-link" to='/aboutus'><span className="fa fa-info fa-lg"></span> ABOUT US</NavLink>
+                        <NavLink style={{color:"#fff"}} className="nav-link" to='/aboutus'><span className="fa fa-info fa-lg"></span> ABOUT US</NavLink>
                     </NavItem>
                     <NavItem>
-                        <NavLink style={{color:"#ffe6e6"}} className="nav-link"  to='/menu'><span className="fa fa-bars fa-lg" style={{fontSize:"30px"}} ></span> MENU</NavLink>
+                        <NavLink style={{color:"#fff"}} className="nav-link"  to='/menu'><span className="fa fa-bars fa-lg" style={{fontSize:"30px"}} ></span> MENU</NavLink>
                     </NavItem>
                     <NavItem>
                         <NavLink style={{color:"#ffe6e6"}} className="nav-link" to='/contact'><span className="fa fa-envelope  fa-lg"></span> CONTACT US</NavLink>

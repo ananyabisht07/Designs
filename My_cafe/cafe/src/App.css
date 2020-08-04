@@ -9,13 +9,35 @@
 min-height: 1500px;
 }
 
+/* Header */
+
 .header {
   background-color: rgba(37, 37, 36, 0.726);
   font-size: 25px;
   font-weight: bolder;
   margin-top:0px ;
-  
+
 }
+
+
+/* Footer */
+.footer{
+  background-color: #180e0da4;
+  margin:0px auto;
+  padding: 20px 0px 20px 0px;
+  margin-top: 9em;
+  color: antiquewhite;
+  font-size: 19px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.box{
+  background-color: rgba(14, 13, 13, 0.651);
+  width: 1533px;
+  height: 70px;
+  color: #fcf8f7;
+}
+
 
 /* Home */
 
@@ -98,6 +120,11 @@ min-height: 1500px;
 
 /* Slider */
 
+.welcome-img{
+  height: 300px !important;
+  width: 200px !important;
+}
+
 .carouselStyle{
   height: 100vh;
   position: relative;
@@ -133,7 +160,7 @@ min-height: 1500px;
 
 .slide__text1{
   position: absolute;
-  color: rgba(139, 72, 72, 0.911);
+  color: rgb(126, 60, 60);
   margin-top: 120px;
   padding: 60px;
   font-family: 'Noto Serif', serif;
