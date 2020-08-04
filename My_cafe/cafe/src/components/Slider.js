@@ -23,10 +23,8 @@ class Slider extends Component{
                             <Row className="" >
                                 <Col md={6} className="text-center">
                                     <div className="slide__text1">
-                                        <h2 className="slide__text-heading">Project Name 1</h2>
-                                        <p className="slide__text-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio veniam minus illo 
-                                        debitis nihil animi facere, doloremque voluptate tempore quia. Lorem ipsum dolor sit amet, consectetur adipisicing 
-                                        elit. Distinctio veniam minus illo debitis nihil animi facere, doloremque voluptate tempore quia.</p>
+                                        
+                                        <p><h1 className="slide__text-heading">WELCOME</h1></p>
                                     </div> 
                                 </Col>
                             </Row>
@@ -41,7 +39,7 @@ class Slider extends Component{
                         <Animated animationIn="slideInLeft" animationInDuration="2000">
                         <h3>First slide label</h3>
                         </Animated>
-                        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                        <p style={{fontSize:"20px", fontWeight:"500" }}>Slide Down <i class="fa fa-angle-down fa-lg"></i></p>
                     </Carousel.Caption>
                 </Carousel.Item>
                 
@@ -59,10 +57,11 @@ class Slider extends Component{
                             <Row className="" >
                                 <Col md={6} className="text-center">
                                     <div className="slide__text">
-                                        <h2 className="slide__text-heading">Project Name 1</h2>
-                                        <p className="slide__text-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio veniam minus illo 
-                                        debitis nihil animi facere, doloremque voluptate tempore quia. Lorem ipsum dolor sit amet, consectetur adipisicing 
-                                        elit. Distinctio veniam minus illo debitis nihil animi facere, doloremque voluptate tempore quia.</p>
+                                        <h2 className="slide__text-heading">WE WELCOME YOU</h2>
+                                        <p className="slide__text-desc">Our home located in New York's Flatiron District, where
+                                        we invite guests to celebrate life and share sundry blends of modern and traditional
+                                        Lebanese-Mediterranean cuisine.Our goal at ilili is to unify our guest's cultures and
+                                        spirits with our own, expressing passion and generosity in the cuisine we share.</p>
                                     </div> 
                                 </Col>
                             </Row>
@@ -77,7 +76,7 @@ class Slider extends Component{
                         <Animated animationIn="slideInLeft" animationInDuration="2000">
                         <h3>First slide label</h3>
                         </Animated>
-                        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                        <p style={{fontSize:"20px", fontWeight:"500" }}>Slide Down <i class="fa fa-angle-down fa-lg"></i></p>
                     </Carousel.Caption>
                 </Carousel.Item>
                 
@@ -94,10 +93,11 @@ class Slider extends Component{
                             <Row className="" >
                                 <Col md={6} className="text-center">
                                         <div className="slide__text">
-                                            <h2 className="slide__text-heading">Project Name 2</h2>
-                                            <p className="slide__text-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio veniam minus illo 
-                                            debitis nihil animi facere, doloremque voluptate tempore quia. Lorem ipsum dolor sit amet, consectetur adipisicing 
-                                            elit. Distinctio veniam minus illo debitis nihil animi facere, doloremque voluptate tempore quia.</p>
+                                            <h2 className="slide__text-heading">FRESH TAKES ON OLD STANDARDS</h2>
+                                            <p className="slide__text-desc">Executive Chef and Owner Plilippe Massoud excellently
+                                            crafts a melting pot of Lebanese, Levatine, and Mediterranean inspired cuisine mixed
+                                            with New York Attitude. Flavorful herbs and spices combine textures to appease broad
+                                            based palates.</p>
                                         </div>
                                 </Col>
                             </Row>
@@ -113,7 +113,7 @@ class Slider extends Component{
                         <Animated animationIn="slideInLeft" animationInDuration="3000">
                             <h3>Second slide label</h3>
                         </Animated>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <p style={{fontSize:"20px", fontWeight:"500" }}>Slide Down <i class="fa fa-angle-down fa-lg"></i></p>
                     </Carousel.Caption>
                 </Carousel.Item>
 
@@ -131,10 +131,10 @@ class Slider extends Component{
                             <Row className="" >
                                 <Col md={6} className="text-center">
                                         <div className="slide__text">
-                                            <h2 className="slide__text-heading">Project Name 3</h2>
-                                            <p className="slide__text-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio veniam minus illo 
-                                            debitis nihil animi facere, doloremque voluptate tempore quia. Lorem ipsum dolor sit amet, consectetur adipisicing 
-                                            elit. Distinctio veniam minus illo debitis nihil animi facere, doloremque voluptate tempore quia.</p>
+                                            <h2 className="slide__text-heading">A PLACE FOR FAMILY</h2>
+                                            <p className="slide__text-desc">Whether part of a party of fifty or a party of two,
+                                            your experience thriughout our elegant, yet comfortable space is eventful. We are sharing
+                                            our long-held Lebanese-Mediterranean traditions with a modern contemporary twist.</p>
                                         </div>
                                 </Col>
                             </Row>
@@ -151,7 +151,7 @@ class Slider extends Component{
                     <Animated animationIn="slideInLeft" animationInDuration="3000">
                     <h3>Third slide label</h3>                    
                     </Animated>
-                    <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                    <p style={{fontSize:"20px", fontWeight:"500" }}>Slide Down <i class="fa fa-angle-down fa-lg"></i></p>
                     </Carousel.Caption>
                 </Carousel.Item>
 
@@ -189,7 +189,7 @@ class Slider extends Component{
                     <Animated animationIn="slideInLeft" animationInDuration="3000">
                     <h3>Third slide label</h3>                    
                     </Animated>
-                    <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                    <p style={{fontSize:"20px", fontWeight:"500" }}>Slide Down <i class="fa fa-angle-down fa-lg"></i></p>
                     </Carousel.Caption>
                 </Carousel.Item>
 
