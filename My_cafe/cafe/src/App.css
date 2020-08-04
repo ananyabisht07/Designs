@@ -303,13 +303,18 @@ min-height: 1500px;
 
 /* ABOUT US*/
 
-.header-box{
+.our-team{
+  font-family: 'Ranchers', cursive;
+  color: rgb(126, 60, 60);
+  font-size: 4em;
+  letter-spacing: 3px;
+}
+.header-box1{
   position: relative;
   height: 700px;
   background: url(/img/25.jpg) no-repeat;
   object-fit: contain;
   background-attachment: fixed;
-  
   background-size: auto 700px;
 }
 
@@ -337,13 +342,94 @@ min-height: 1500px;
   
 }
 
+
+
 .chefs-img{
-  width: 300px;
-  height: 300px;
+  width: 350px;
+  height: 350px;
   border-radius: 50%;
+  border-color: rgb(184, 141, 141);
+  border-style: solid;
+  border-width: 8px;
 }
 
 .chef1{
   font-family: 'Times New Roman', Times, serif;
   font-size: 23px;
+  background-attachment: fixed;
+  background: rgb(133, 87, 87);
+  padding: 100px;
+  
+}
+
+.chef2{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 23px;
+  background-attachment: fixed;
+}
+
+.chef3{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 23px;
+  background-attachment: fixed;
+  background: rgb(133, 87, 87);
+  padding: 100px;
+  
+}
+
+.header-box2{
+  position: relative;
+  height: 850px;
+  background: url(/img/bg2.jpg) ;
+  object-fit: contain;
+  background-attachment: fixed;
+  background-size: auto 700px;
+}
+
+.img3{
+  height: 100%;
+  width: 100%;
+  background-image: url(/img/28.jpg);
+  position: absolute;
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  margin-left:-850px;
+  top: 3100px;
+  z-index: 2;
+}
+
+.img4{
+  height: 100%;
+  width: 100%;
+  background-image: url(/img/31.jpg);
+  position: absolute;
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  margin-left:-240px;
+  top: 3000px;
+  z-index: 1;
+}
+
+.img5{
+  height: 100%;
+  width: 100%;
+  background-image: url(/img/29.jpg);
+  position: absolute;
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  margin-left:-320px;
+  top: 3700px;
+  
+}
+
+.img6{
+  height: 100%;
+  width: 100%;
+  background-image: url(/img/30.jpg);
+  position: absolute;
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  margin-left:-900px;
+  top: 3290px;
+  z-index: 3;
 }

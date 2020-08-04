@@ -13,7 +13,7 @@ import Parallax from './Components/Parallax';
 function App() {
   return (
     
-      <ParallaxHeader />
+      <Parallax />
   
   );
 }
