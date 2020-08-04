@@ -1,11 +1,18 @@
 import React, { Component } from 'react'
-
+import './Functions'
+import { Container, Row, Col } from 'react-bootstrap'
 
 class About extends Component{
     render(){
         return(
             <div style={{ color:"#fff"}}>
-                <h1>About</h1>
+                
+                <div className="header-box " >
+                    <div className="img1"></div>
+                    <div className="img2"></div>
+                </div>
+                
+                
             </div>
         )
     }

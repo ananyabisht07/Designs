@@ -285,7 +285,7 @@ min-height: 1500px;
 }
 
 .card-style Button{
-  background: #fff;
+  background: rgb(204, 168, 168);
   font-size: 16px;
   color: #000;
   font-weight: bold;
@@ -298,4 +298,52 @@ min-height: 1500px;
 .card-style Button:hover{
   box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.5);
   background: rgb(92, 50, 50);
+}
+
+
+/* ABOUT US*/
+
+.header-box{
+  position: relative;
+  height: 700px;
+  background: url(/img/25.jpg) no-repeat;
+  object-fit: contain;
+  background-attachment: fixed;
+  
+  background-size: auto 700px;
+}
+
+.img1{
+  height: 100%;
+  width: 100%;
+  background-image: url(/img/23.jpg);
+  position: absolute;
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  margin-left:-160px;
+  top: -100px;
+  
+}
+
+.img2{
+  height: 100%;
+  width: 100%;
+  background-image: url(/img/24.jpg);
+  position: absolute;
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  margin-left:-260px;
+  top: 200px;
+  
+}
+
+.chefs-img{
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+}
+
+.chef1{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 23px;
 }

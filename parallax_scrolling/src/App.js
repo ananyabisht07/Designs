@@ -5,14 +5,15 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 //import { Parallax } from 'react-parallax';
 //import Parallax from './Components/Parallax';
 //import ReactPara from './Components/ReactPara';
-//import ParallaxHeader from './Components/ParallaxHeader';
+import ParallaxHeader from './Components/ParallaxHeader';
 //import PeopleParallax from './Components/PeopleParallax';
 import Slider from './Components/Slider';
+import Parallax from './Components/Parallax';
 
 function App() {
   return (
     
-      <Slider />
+      <ParallaxHeader />
   
   );
 }

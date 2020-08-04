@@ -11,19 +11,18 @@ function CardsGroup(){
                         <Card className="card-style" style={{border:"none",borderRadius:"12px",}} >
                             <Card.Img style={{border:"none",borderRadius:"15px",height:"100%"}}  src="img/13.jpeg" />
                             <Card.Body className="info">
-                                <Card.Title>Card Title</Card.Title>
-                                <Card.Text >
-                                    Some quick example text to build on the card title and make up the bulk of
-                                    the card's content.
+                                <Card.Title className="heading1">JOIN OUR TEAM</Card.Title>
+                                <Card.Text style={{fontFamily: 'Times New Roman, Times, serif', fontSize:"23px"}} >
+                                    We're always hiring and excited to add new talent to our team.
                                 </Card.Text>
-                                <Button variant="primary">Read More...</Button>
+                                <Button variant="primary">LEARN MORE...</Button>
                             </Card.Body>
                         </Card>
                     </Col>
                     <Col md={12} lg={8} style={{marginBottom:"2em"}}>
                         <Card className="card-bg" style={{border:"none",borderRadius:"15px"}}>
                             <Card.Body style={{padding:"0px",border:"0px"}} >
-                                <Row>
+                                <Row className="justify-content-center">
                                     <Col md={6} sm={12} >
                                         <Card.Img style={{ borderTopLeftRadius:"15px", borderBottomLeftRadius:"15px"}}  variant="top" src="img/15.jpeg"  alt="mission" />
                                     </Col>
