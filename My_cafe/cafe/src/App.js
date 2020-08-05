@@ -1,7 +1,8 @@
 import React from 'react';
+import './MobileCss.css';
 import './App.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
 import {BrowserRouter, Route, Switch} from 'react-router-dom';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import 'font-awesome/css/font-awesome.min.css';
 import Home from './components/Home';
 import About from './components/About';

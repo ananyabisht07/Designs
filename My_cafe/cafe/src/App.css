@@ -1,6 +1,6 @@
 *{
   margin: 0;
-  padding: 0;
+  padding: 0 ;
 } 
 
  body{
@@ -33,13 +33,33 @@ min-height: 1500px;
 
 .box{
   background-color: rgba(14, 13, 13, 0.651);
-  width: 1533px;
+  width: 100%;
   height: 70px;
   color: #fcf8f7;
 }
 
 
 /* Home */
+
+
+
+.section-1 .row .col-md-6 img{
+  height: 80%;
+  width: 130%;
+}
+
+.section-1 .row .col-md-6:last-child{
+  position: relative;
+}
+
+.section-1 .row .col-md-6 .panel{
+  position: absolute; 
+  background: #fff;
+  text-align: left;
+  top: 7vmin;
+  left: -18vmin;
+  box-shadow:0px 25px 42px rgba(0,0,0,0.2) ;
+}
 
 .containder-style{
  background-color: rgb(51, 40, 40);
@@ -65,14 +85,15 @@ min-height: 1500px;
   margin-right: auto;
 }
 .text-style1{
-  color: rgb(241, 231, 231) !important;
+
+  color: rgb(22, 22, 22) !important;
   font-family: 'Times New Roman', Times, serif;
   font-size: 25px;
-  background: rgb(163, 128, 128);
-  position: absolute;
+  
+  /* background: rgb(163, 128, 128);
   left: 160px;
   z-index: 1;
-  padding: 20px;
+  padding: 20px; */
 }
 
 .text-style2{
@@ -80,11 +101,10 @@ min-height: 1500px;
   font-family: 'Times New Roman', Times, serif;
   font-size: 25px;
   background:rgb(163, 128, 128);
-  position: absolute;
-  right: 200px;
+  /* right: 200px;
   z-index: 1;
   height: 325px;
-  padding: 20px;
+  padding: 20px; */
 }
 
 .text-style3{
@@ -92,23 +112,21 @@ min-height: 1500px;
   font-family: 'Times New Roman', Times, serif;
   font-size: 24px;
   background: rgb(163, 128, 128);
-  position: absolute;
-  left: 180px;
+  /* left: 180px;
   padding: 20px;
   z-index: 1;
-  height: 430px;
+  height: 430px; */
 }
 
 .text-style4{
   color: rgb(241, 231, 231) !important;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: 'Times New Roman', Times, se rif;
   font-size: 24px;
   background: rgb(163, 128, 128);
-  position: absolute;
-  right: 250px;
+  /* right: 250px;
   z-index: 1;
   padding: 20px;
-  height: 317px;
+  height: 317px; */
 }
 
 .headings{
@@ -303,6 +321,8 @@ min-height: 1500px;
 
 /* ABOUT US*/
 
+
+
 .our-team{
   font-family: 'Ranchers', cursive;
   color: rgb(126, 60, 60);
@@ -356,25 +376,22 @@ min-height: 1500px;
 .chef1{
   font-family: 'Times New Roman', Times, serif;
   font-size: 23px;
-  background-attachment: fixed;
   background: rgb(133, 87, 87);
-  padding: 100px;
-  
+  padding-top: 70px;
+  padding-bottom: 70px;
 }
 
 .chef2{
   font-family: 'Times New Roman', Times, serif;
   font-size: 23px;
-  background-attachment: fixed;
 }
 
 .chef3{
   font-family: 'Times New Roman', Times, serif;
   font-size: 23px;
-  background-attachment: fixed;
   background: rgb(133, 87, 87);
-  padding: 100px;
-  
+  padding-top: 70px;
+  padding-bottom: 70px;
 }
 
 .header-box2{
@@ -394,7 +411,7 @@ min-height: 1500px;
   background-repeat: no-repeat;
   background-position: right bottom;
   margin-left:-850px;
-  top: 3100px;
+  top: 450px;
   z-index: 2;
 }
 
@@ -406,7 +423,7 @@ min-height: 1500px;
   background-repeat: no-repeat;
   background-position: right bottom;
   margin-left:-240px;
-  top: 3000px;
+  top: 280px;
   z-index: 1;
 }
 
@@ -418,7 +435,7 @@ min-height: 1500px;
   background-repeat: no-repeat;
   background-position: right bottom;
   margin-left:-320px;
-  top: 3700px;
+  top: 985px;
   
 }
 
@@ -430,6 +447,36 @@ min-height: 1500px;
   background-repeat: no-repeat;
   background-position: right bottom;
   margin-left:-900px;
-  top: 3290px;
+  top: 630px;
   z-index: 3;
+}
+
+.text-style5{
+  position: relative;
+  color: rgb(241, 231, 231) !important;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 24px;
+  background: rgb(163, 128, 128);
+  left: 3em;
+  z-index: 1;
+  padding: 20px;
+  top:60px;
+}
+
+.text-style6{
+  position: relative;
+  color: rgb(241, 231, 231) !important;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 24px;
+  background: rgb(163, 128, 128);
+  padding: 20px;
+  height: 420px;
+  left: 40px;
+  z-index: 1;
+  top: 120px;
+}
+
+.OurPeople-img{
+  right: 10px;
+  position: absolute;
 }
