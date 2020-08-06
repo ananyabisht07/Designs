@@ -484,3 +484,52 @@ min-height: 1500px;
   right: 10px;
   position: absolute;
 }
+
+
+/* OnScroll*/
+
+.background-img {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  object-fit: contain;
+  background: url(/img/36.png);
+  background-attachment: fixed;
+  clip-path:  circle(0px at center);
+}
+
+.layer{
+  position: relative;
+  margin-top: 200vh;
+  background: linear-gradient( #0c0303,  #ca0707) ;
+  padding: 100px;
+  height:150vh ;
+}
+
+.layer h2{
+  color: antiquewhite;
+  font-size: 3em;
+  font-family: 'Ranchers', cursive;
+  margin-bottom: 1em;
+  text-shadow:1px 2px 0px #928b8b  ;
+  letter-spacing: 3px;
+}
+
+
+.layer p{
+  color: antiquewhite;
+  font-size: 17px;
+}
+
+.title{
+  position: relative;
+  top: 41em;
+  z-index: 1;
+  text-align: center;
+  font-size: 17px;
+  width: 100%;
+  color: rgb(224, 227, 230);
+  font-weight: bold;
+}
