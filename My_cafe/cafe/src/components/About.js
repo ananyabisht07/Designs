@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import './Functions'
 import { Container, Row, Col } from 'react-bootstrap'
+import Footer from './Footer';
 
 class About extends Component{
     render(){
@@ -117,6 +118,7 @@ class About extends Component{
                         </Row>
                     </Container>
                 </div>
+                <Footer />
             </div>
         )
     }

@@ -16,17 +16,20 @@ min-height: 1500px;
   font-size: 25px;
   font-weight: bolder;
   margin-top:0px ;
-  height: 110px;
 }
 
 .brand-name{
-  padding-top: 15px !important;
+  font-family: 'Ranchers', cursive;
+  letter-spacing: 3px;
+  font-weight: 800;
+  font-size: 40px;
+  color:rgb(236, 227, 227) ;
 }
 
 
 /* Footer */
 .footer{
-  background-color: #180e0da4;
+  background-color: #180e0da4 !important;
   margin:0px auto;
   padding: 20px 0px 20px 0px;
   margin-top: 9em;
@@ -36,7 +39,7 @@ min-height: 1500px;
 }
 
 .box{
-  background-color: rgba(14, 13, 13, 0.651);
+  background-color: rgba(14, 13, 13, 0.651) !important;
   width: 100%;
   height: 70px;
   color: #fcf8f7;
@@ -503,11 +506,12 @@ min-height: 1500px;
 .layer{
   position: relative;
   margin-top: 200vh;
-  background: linear-gradient( #0c0303,  #ca0707) ;
-  padding: 100px;
-  height:150vh ;
+  background: linear-gradient( #0c0303,  #530606) ;
+  height:207vh ;
 }
-
+.shift{
+  margin-top: 6em !important;
+}
 .layer h2{
   color: antiquewhite;
   font-size: 3em;
@@ -533,3 +537,95 @@ min-height: 1500px;
   color: rgb(224, 227, 230);
   font-weight: bold;
 }
+
+
+/* WavyCards */
+
+.wavy-card{
+  margin-top: 7em;
+  margin-bottom: 7em;
+  position: relative;
+  width: 300px;
+  height: 900px;
+  color: rgb(231, 216, 216);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  -webkit-box-reflect: below 15px linear-gradient(
+    transparent, transparent, rgba(0,0,0,0.2));
+}
+
+.wavy-card:hover{
+  color: #000;
+  cursor: pointer;
+}
+
+.wavy-card:before{
+  content: '';
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  width: 100%;
+  height: 100%;
+  border: 4px solid rgb(231, 216, 216);
+  background: #000;
+  filter: url(#wavy);
+}
+
+.wavy-card:hover:before{
+  background: rgb(231, 216, 216);
+  transition: 0.5s;
+}
+
+.card-content{
+  position: absolute;
+  transition: 0.5s;
+  font-weight: 600;
+}
+
+
+.wavy-card:after{
+  content: '';
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  width: 50%;
+  height: 100%;
+  border: 4px solid rgb(231, 216, 216);
+  border-right: none;
+  filter: url(#wavy);
+  background:rgba(255, 255, 255, 0.1);
+}
+
+
+
+.wavy-jumbo{
+  background: linear-gradient(rgb(0, 0, 0), rgb(41, 39, 39));
+  border-radius: 21px !important;
+}
+
+
+/* ContactForm  */
+
+.form-style{
+  font-size: 20px;
+  font-weight: 700;
+  color: #e7e1e1;
+  margin: 2em;
+}
+
+.form-card{
+  background-color: rgba(25, 27, 27, 0.904) !important;
+  margin-top: 1em;
+  box-shadow: 0 10px 35px rgba(139, 12, 12, 0.801);
+}
+.form-button{
+  border: none;
+  border-radius: 16px;
+  color:#e7e1e1;
+  background-color: #837c7c;
+  font-size: 21px;
+  width: 7em;
+  height: 3em;
+  font-weight: 700;}
+

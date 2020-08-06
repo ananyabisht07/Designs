@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
-
+import ContactForm from './ContactForm';
+import Footer from './Footer';
 
 class OnScroll extends Component{
     componentDidMount(){
@@ -11,28 +12,20 @@ class OnScroll extends Component{
                 <h2 className="title">Scroll to see the magic..</h2>
                 <section className="background-img"></section>
                 
-                    <div className=" layer">
-                        <div style={{padding:"103px"}}>
-                            <h2 className="text-center">Contact Us</h2>
+                    <div className="layer">
+                        <div className="container " >
+                            <h2 className="shift text-center">Contact Us</h2>
                             <p className="text-center">
                             Send us a message and we’ll get back to you as soon as possible. You can also reach us by phone at (212) 683-2929.
-                            Looking forward to hearing from you.</p><br/><br/>
-                             <p>   You can use fairy light photography to improve your nighttime photography skills. You’ll get better at lighting your
-                                subjects with unusual lights, and give your imagination a chance to roam.
-
-                                Fairy lights come in all shapes and colours. This makes them the perfect backdrops for any kind of subject.You can
-                                use them to add a boost of colour to a dull portrait. Or you can fill up negative space in a simple composition.
-                                For the best results, use multi-coloured fairy lights. Make sure your subject’s colours or outfit work well with 
-                                the lights.This will ensure that your results aren’t overly colourful or loud.
-                                White fairy lights are the perfect source of light for glowing photos.<br /><br/>
-                                If you’re working with a person, ask them to hold the lights directly in front of their face. This will make their
-                                eyes sparkle and make them look flattering.They can also hold the lights from both sides of their face for moodier
-                                results.If they hold the lights above or below their face, they won’t look great.Make sure to avoid that. Unless 
-                                you have another source of light to get rid of unflattering shadows.
-                            </p>
+                            Looking forward to hearing from you.</p>
                         </div>
-                        
+                        <div>
+                            <ContactForm />
+
+                        </div>
+                        <Footer />
                     </div>
+                    
                 </div>
             
         )

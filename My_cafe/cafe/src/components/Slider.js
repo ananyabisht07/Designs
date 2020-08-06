@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Carousel, Row, Col, Container, Image } from 'react-bootstrap'
+import { Carousel, Row, Col, Container, } from 'react-bootstrap'
 import {Animated} from "react-animated-css";
 
 
@@ -25,7 +25,7 @@ class Slider extends Component{
                                     <div className="slide__text1">
                                         
                                         <h1 className="slide__text-heading">WELCOME</h1>
-                                        <img className="welcome-img" src="img/welcome.png"  />
+                                        <img className="welcome-img" src="img/welcome.png" alt="slide-img" />
                                         
                                     </div> 
                                     

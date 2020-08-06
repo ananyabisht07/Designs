@@ -9,7 +9,7 @@ import About from './components/About';
 import Menu from './components/Menu';
 import Contact from './components/Contact';
 import Header from './components/Header';
-import Footer from './components/Footer';
+//import Footer from './components/Footer';
 import 'bootstrap-social/bootstrap-social.css';
 
 
@@ -25,7 +25,6 @@ function App() {
           <Route  exact path="/contact" component={Contact} />
         </Switch>
       </div>
-      <Footer />
     </BrowserRouter>
   );
 }

@@ -4,6 +4,7 @@ import CardsGroup from './CardsGroup'
 import { Container, Image, Col, Row } from 'react-bootstrap'
 import "aos/dist/aos.css"
 import Aos from 'aos'
+import Footer from './Footer';
 
 class Home extends Component{
     componentDidMount(){
@@ -82,7 +83,7 @@ class Home extends Component{
                 <div style={{marginTop:"10em"}}>
                     <CardsGroup />
                 </div>
-                
+                <Footer />
             </div>
         )
     }

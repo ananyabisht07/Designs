@@ -13,7 +13,7 @@ function Header() {
         
             <Navbar fixed="top" collapseOnSelect expand="lg" className="header" >
                 
-                <Navbar.Brand className="brand-name" href="/" style={{marginLeft:40}}><img src="img/logo1.png"  alt="Logo" /></Navbar.Brand>
+                <Navbar.Brand  href="/" ><h3 className="brand-name">ETERNITY</h3></Navbar.Brand>
                 <Navbar.Toggle style={{marginRight:40}} aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse  id="responsive-navbar-nav">
                     <Nav navbar  className="ml-auto">
