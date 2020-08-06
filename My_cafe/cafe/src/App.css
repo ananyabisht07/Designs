@@ -16,7 +16,11 @@ min-height: 1500px;
   font-size: 25px;
   font-weight: bolder;
   margin-top:0px ;
+  height: 110px;
+}
 
+.brand-name{
+  padding-top: 15px !important;
 }
 
 

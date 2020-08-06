@@ -40,8 +40,9 @@ class Slider extends Component{
                     />
                     <Carousel.Caption>
                         <Animated animationIn="slideInLeft" animationInDuration="2000">
-                        <h3>First slide label</h3>
+                        
                         </Animated>
+                    
                         <p style={{fontSize:"20px", fontWeight:"500" }}>Slide Down <i class="fa fa-angle-down fa-lg"></i></p>
                     </Carousel.Caption>
                 </Carousel.Item>
