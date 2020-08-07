@@ -5,6 +5,7 @@ import { Container, Image, Col, Row } from 'react-bootstrap'
 import "aos/dist/aos.css"
 import Aos from 'aos'
 import Footer from './Footer';
+import BookMyTable from './BookMyTable'
 
 class Home extends Component{
     componentDidMount(){
@@ -19,7 +20,39 @@ class Home extends Component{
             <div>
                 <Slider />
 
-
+                <div className="text-center head-eternity">
+                    <h2>Discover..</h2>
+                    <h1>ETERNITY</h1>
+                    <h4>OPENING HOURS</h4>
+                    <h6> MONDAY - FRIDAY 08:00 AM - 23:00 PM</h6>
+                </div>
+                
+                <div className="header-box3">
+                    <div className="img7"></div>
+                    <div className="img8"></div>
+                    <div className="img9"></div>
+                    <div className="img10"></div>
+                    <div className="img11"></div>
+                    <div className="img12"></div>
+                </div>
+                <div style={{marginTop:"7em"}} className="containder-style">
+                     <Container >
+                        <Row className="justify-content-center">
+                            
+                            <Col md={12} lg={6} className="text-center mx-auto  my-auto text-style4" style={{marginTop:"5em",}}>
+                                <h2  className="headings">CATERING TO YOU</h2>
+                                <div  className="seperator "> </div>
+                                <p style={{marginTop:30}}>
+                                    Whether you are looking for a special lunch to reward your team for its hard work, or to impress an important 
+                                    client with a perfect dinner in your home, ilili can cater events from 5 to 500 guests. 
+                                </p>
+                            </Col>
+                            <Col md={12} lg={6} className="mx-auto ml-auto my-auto  text-center" style={{marginTop:"30px"}}>
+                                <Image className="media-img1 img-animation" src="img/16.jpg" alt="img" width="550" height="500"/> 
+                            </Col>
+                        </Row>
+                    </Container>
+                </div>
                
                 <div style={{marginTop:"7em"}} className="containder-style">
                     <Container >
@@ -83,6 +116,16 @@ class Home extends Component{
                 <div style={{marginTop:"10em"}}>
                     <CardsGroup />
                 </div>
+
+                <div className="bg-img1">
+                    <h2>Visit Us At Eternity</h2>
+                    <h1>ENJOYABLE & COMFORTABLE</h1>    
+                </div>
+
+                <BookMyTable />
+
+                
+
                 <Footer />
             </div>
         )

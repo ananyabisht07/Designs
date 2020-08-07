@@ -48,6 +48,122 @@ min-height: 1500px;
 
 /* Home */
 
+.head-eternity{
+  margin-top: 4em;
+}
+.head-eternity h2{
+  color: #bd7c7c;
+  font-size: 3em;
+  text-align: center;
+  font-family: 'Dancing Script', cursive;
+}
+
+.head-eternity h1{
+  text-align: center;
+  color: #574541;
+  font-size: 3em;
+  font-family: 'PT Serif', serif;
+}
+
+.head-eternity h4{
+  text-align: center;
+  font-family: 'PT Serif', serif;
+}
+
+
+.header-box3{
+  margin-top: 4em;
+  position: relative;
+  height: 620px;
+  background: url(/img/39.jpg) no-repeat;
+  object-fit: contain;
+  background-attachment: fixed;
+  overflow: hidden;
+}
+
+.img7{
+  height: 100%;
+  width: 100%;
+  background-image: url(/img/tomato.png);
+  position: absolute;
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  margin-left:-260px;
+  top: 200px;
+  
+}
+
+.img8{
+  height: 100%;
+  width: 100%;
+  background-image: url(/img/onion2.png);
+  position: absolute;
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  margin-left:-1000px;
+  top: 200px;
+  
+}
+.img9{
+  height: 100%;
+  width: 100%;
+  background-image: url(/img/onion1.png);
+  position: absolute;
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  margin-left:-1130px;
+  top: 340px;
+}
+.img11{
+  height:100%;
+  width: 100%;
+  background-image: url(/img/carrot1.png);
+  position: absolute;
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  margin-left:-57px;
+  top: 530px;
+  
+}
+
+.img12{
+  height:100%;
+  width: 100%;
+  background-image: url(/img/cherry2.png);
+  position: absolute;
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  margin-left:-400px;
+  top: -350px;
+  
+}
+
+
+
+.bg-img1{
+  margin-top: 8em;
+  position: relative;
+  margin-bottom: 8em;
+  background: url(/img/35.jpg);
+  object-fit: contain !important;
+  height: 700px;
+}
+.bg-img1 h2{
+  position: absolute;
+  color: #c0ad50;
+  font-size: 3em;
+  font-family: 'Dancing Script', cursive;
+  top: 500px;
+  left: 630px;
+}
+.bg-img1 h1{
+  position: absolute;
+  color: #eedbd6;
+  font-size: 3em;
+  font-family: 'PT Serif', serif;
+  top: 550px;
+  left: 420px;
+}
 
 
 .section-1 .row .col-md-6 img{
@@ -142,6 +258,36 @@ min-height: 1500px;
   font-size: 35px;
   font-family: "Times New Roman";
 }
+
+/* Book My Table */
+
+.book-table h3{
+  color: #bd7c7c;
+  font-size: 2em;
+  text-align: center;
+  font-family: 'Dancing Script', cursive;
+}
+
+.book-table h2{
+  text-align: center;
+  color: #eedbd6;
+  font-size: 2em;
+  font-family: 'PT Serif', serif;
+}
+
+.book-table Button{
+  border: 0px;
+  background: rgb(204, 149, 149);
+  font-weight: 600;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.book-table Button:hover{
+  border: 0px;
+  background: rgb(114, 73, 73);
+}
+
+
 
 /* Slider */
 

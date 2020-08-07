@@ -11,6 +11,7 @@ class About extends Component{
                 <div className="header-box1 " >
                     <div className="img1"></div>
                     <div className="img2"></div>
+                    
                 </div>
                 
 

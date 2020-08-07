@@ -23,4 +23,19 @@ $(window).scroll(function(){
     $('.img6').css({
         'transform' : 'translate(0px, -'+ wScroll /32 +'%)'
     })
+
+    $('.img7').css({
+        'transform' : 'translate(0px, -'+ wScroll /19 +'%)'
+    })
+
+    $('.img8').css({
+        'transform' : 'translate(0px, -'+ wScroll /12 +'%)'
+    })
+    $('.img9').css({
+        'transform' : 'translate(0px, -'+ wScroll /22 +'%)'
+    })
+
+    $('.img11').css({
+        'transform' : 'translate(0px, -'+ wScroll /15 +'%)'
+    })
    });
