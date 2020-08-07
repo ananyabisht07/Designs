@@ -4,19 +4,69 @@ import { Container, Row, Col } from 'react-bootstrap'
 import Footer from './Footer';
 
 class About extends Component{
+
+    componentDidMount(){
+        window.scrollTo(0, 0)
+      }
     render(){
         return(
             <div style={{ color:"#fff"}}>
                 
                 <div className="header-box1 " >
                     <div className="img1"></div>
-                    <div className="img2"></div>
-                    
+                    <div className="img2"></div>                 
                 </div>
+
+                <Container style={{marginTop:"4em"}}>
+                    <Row>
+                        <Col md={6} className="text-center my-auto">
+                            <h2 style={{fontFamily:"'Dancing Script', cursive", fontSize:"3em", color:"#bd7c7c"}}>Our Story</h2>
+                            <h4 style={{fontFamily:"PT Serif', serif", fontSize:"37px",fontWeight:"700" , color:"#574541"}}>SINCE 1975</h4>
+                            <h5 style={{fontFamily:"'Dancing Script', cursive", color:"#bd7c7c", fontSize:"27px"}}>"There is no sincerer love than the love of food"</h5>
+                            <h6>- GEORGE BERNARD SHAW</h6>
+                            <div className="seperator"></div>
+                            <p style={{fontSize:"17px"}}>
+                                Welcome. This is Royal plate. Elegant & sofisticated restaurant template. Royal plate offers different 
+                                home page layouts with smart and unique design, showcasing beautifully designed elements every restaurant
+                                website should have. Smooth animations, fast loading and engaging user experience are just some of the 
+                                features this template offers. So, give it a try and dive into a world of royal restaurant websites.
+                            </p>
+                        </Col>
+                        <Col md={6} className="my-auto">
+                            <img src="img/19.jpg" alt="fresh vegetable"  />
+                        </Col>
+                    </Row>
+                </Container>
                 
 
-                <div style={{marginTop:"10em"}}>
-                <h1 className="text-center our-team">OUR TEAM</h1>
+                <Container style={{marginTop:"4em"}}>
+                    <Row>
+                        <Col md={6}>
+                            <img src="img/vegetable.png" alt="fresh vegetable" />
+                        </Col>
+                        <Col md={6} className="text-center my-auto">
+                            <h2 style={{fontFamily:"'Dancing Script', cursive", fontSize:"3em", color:"#bd7c7c"}}>Our Approach</h2>
+                            <h4 style={{fontFamily:"PT Serif', serif", fontSize:"37px",fontWeight:"700" , color:"#574541"}}>ALWAYS FRESH INGRIDIENTS</h4>
+                            <div className="seperator"></div>
+                            <p style={{fontSize:"17px"}}>
+                                Here at Royal Plate we work with only the best food supliers like small family farms, insuring that we 
+                                always have the best and always fresh ingredients. You’ll find a large variety of dishes made to satisfy 
+                                any taste, from sea food, steaks, variety of natural soups, pasta, salads, finest deserts and vines...
+                            </p>
+                        </Col>
+                        
+                    </Row>
+                </Container>
+                
+
+
+                <div className="bg-img2">
+                    <h2>Our most valuable asset</h2>
+                    <h1>ALWAYS FRIENDLY & PROFESSIONAL STAFF</h1>    
+                </div>
+
+
+                <div style={{marginTop:"5em"}}>
                     <section style={{marginTop:"1em"}} className="chef1">
                         <Container >
                             <Row className="justify-content-center">
@@ -36,7 +86,7 @@ class About extends Component{
                         </Container>
                     </section>
 
-                    <section style={{marginTop:"5em"}} className="chef2">
+                    <section style={{marginTop:"4em"}} className="chef2">
                         <Container >
                             <Row className="justify-content-center">
 
@@ -55,7 +105,7 @@ class About extends Component{
                         </Container>
                     </section>
 
-                    <section style={{marginTop:"5em"}} className="chef3">
+                    <section style={{marginTop:"4em"}} className="chef3">
                         <Container >
                             <Row className="justify-content-center">
 

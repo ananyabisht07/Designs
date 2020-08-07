@@ -67,6 +67,7 @@ min-height: 1500px;
 
 .head-eternity h4{
   text-align: center;
+
   font-family: 'PT Serif', serif;
 }
 
@@ -474,6 +475,32 @@ min-height: 1500px;
 
 /* ABOUT US*/
 
+.bg-img2{
+  margin-top: 6em;
+  position: relative;
+  margin-bottom: 6em;
+  background: url(/img/41.jpg) no-repeat;
+  background-position: center;
+  height: 650px;
+  background-size: cover;
+}
+.bg-img2 h2{
+  position: absolute;
+  color: #000000;
+  font-size: 3em;
+  font-family: 'Dancing Script', cursive;
+  top: 250px;
+  left: 540px;
+}
+.bg-img2 h1{
+  position: absolute;
+  color: #111010;
+  font-size: 3em;
+  font-family: 'PT Serif', serif;
+  top: 300px;
+  left: 220px;
+}
+
 
 
 .our-team{
@@ -564,7 +591,7 @@ min-height: 1500px;
   background-repeat: no-repeat;
   background-position: right bottom;
   margin-left:-850px;
-  top: 450px;
+  top: 820px;
   z-index: 2;
 }
 
@@ -576,7 +603,7 @@ min-height: 1500px;
   background-repeat: no-repeat;
   background-position: right bottom;
   margin-left:-240px;
-  top: 280px;
+  top: 600px;
   z-index: 1;
 }
 
@@ -588,7 +615,7 @@ min-height: 1500px;
   background-repeat: no-repeat;
   background-position: right bottom;
   margin-left:-320px;
-  top: 985px;
+  top: 1490px;
   
 }
 
@@ -600,7 +627,7 @@ min-height: 1500px;
   background-repeat: no-repeat;
   background-position: right bottom;
   margin-left:-900px;
-  top: 630px;
+  top: 950px;
   z-index: 3;
 }
 
