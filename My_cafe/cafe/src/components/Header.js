@@ -27,7 +27,7 @@ function Header() {
                         <NavLink style={{color:"#fff"}} className="nav-link"  to='/menu'><span className="fa fa-bars fa-lg" style={{fontSize:"30px"}} ></span> MENU</NavLink>
                     </NavItem>
                     <NavItem>
-                        <NavLink style={{color:"#ffe6e6"}} className="nav-link" to='/contact'><span className="fa fa-envelope  fa-lg"></span> CONTACT US</NavLink>
+                        <NavLink style={{color:"#fff"}} className="nav-link" to='/contact'><span className="fa fa-envelope  fa-lg"></span> CONTACT US</NavLink>
                     </NavItem>
                     </Nav>
                     

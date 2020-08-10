@@ -23,12 +23,12 @@ function RenderMainCourse({dish}){
 }
 
 
-class StartersComponent extends Component{
+class DessertsComponent extends Component{
 
     
     render(){  
-        const { starters } = this.props;
-        const dishList = starters.map((dish) => {
+        const { desserts } = this.props;
+        const dishList = desserts.map((dish) => {
             return (
             
                 <RenderMainCourse key={dish.id} dish={dish} />
@@ -38,16 +38,16 @@ class StartersComponent extends Component{
             <div>
                 <Container>
                         <div className="text-center" style={{marginTop:"4em", marginBottom:"3em"}}>
-                            <h2 style={{fontFamily:"'Dancing Script', cursive", fontSize:"3em", color:"#bd7c7c"}}>For Start</h2>
-                            <h4 style={{fontFamily:"PT Serif', serif", fontSize:"37px",fontWeight:"700" , color:"#574541"}}>STARTERS</h4>
+                            <h2 style={{fontFamily:"'Dancing Script', cursive", fontSize:"3em", color:"#bd7c7c"}}>Tasty</h2>
+                            <h4 style={{fontFamily:"PT Serif', serif", fontSize:"37px",fontWeight:"700" , color:"#574541"}}>DESERTS</h4>
                         </div>
                         <Row>
                             <Col md={6} style={{color:"#fff"}}>
-                                { dishList.slice(0,5) }                           
+                                { dishList.slice(0,4) }                           
                             </Col>
 
                             <Col md={6} style={{color:"#fff"}}>
-                                { dishList.slice(5,10) }
+                                { dishList.slice(4,9) }
                             </Col>
                         </Row>
                         
@@ -59,8 +59,8 @@ class StartersComponent extends Component{
 
 const mapStateToProps = (state) => {
     return {
-        starters : state.starters,
+        desserts : state.desserts,
     }
 }
 
-export default connect(mapStateToProps)( StartersComponent );
+export default connect(mapStateToProps)( DessertsComponent );

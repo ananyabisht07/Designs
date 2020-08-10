@@ -169,10 +169,7 @@ class About extends Component{
                         </Row>
                     </Container>
 
-                    <div>    
-                        <Button className="button1" > CLICK ME</Button>
-                        <p className="p1"> Hello</p>
-                    </div>
+                  
 
                 </div>
                 <Footer />

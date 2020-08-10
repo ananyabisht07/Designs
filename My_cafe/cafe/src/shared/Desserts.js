@@ -1,20 +1,20 @@
-export const MAIN_COURSE =
+export const DESSRETS =
     [
         {
-        id: 20,
-        name: 'DAL MAKHNI',
-        image: '/img/mainCourse/daalMakhni.jpg',
+        id: 40,
+        name: 'APPLE-BLUEBERRY TART',
+        image: '/img/desserts/appleBlueberrytart.jpg',
         category: 'starters',
         label:'Hot',
-        price:'4.99',
+        price:'19',
         featured: true,
         ingredients: 'Paneer, Soya Sauce, Spring Onions, Cornflour',
         description: 'One of the favorite dishes from Indian Chinese cuisine is Chilli Paneer which is a vegetarian version of Chilli Chicken.In a typical Chilli Paneer recipe, the fried paneer cubes are tossed in a sweet, sour, spicy sauce. The paneer cubes can be coated with flours or batter coated and deep fried.'
     },
         {
-        id: 21,
-        name:'DAL FRY',
-        image: '/img/mainCourse/dalFry.jpg',
+        id: 41,
+        name:'CHOCLATE BROWNIE',
+        image: '/img/desserts/choclateBrownie.jpg',
         category: 'appetizer',
         label:'',
         price:'1.99',
@@ -23,9 +23,9 @@ export const MAIN_COURSE =
         description:'Garlic bread (also called garlic toast) consists of bread (usually a baguette or sour dough like a ciabatta), topped with garlic and olive oil or butter and may include additional herbs, such as oregano or chives. It is then either grilled or broiled until toasted or baked in a conventional or bread oven.'
     },
         {
-            id: 22,
-            name:'MALAI KOFTA',
-            image: '/img/mainCourse/malaiKofta.jpg',
+            id: 42,
+            name:'LEMON TART',
+            image: '/img/desserts/lemonTart.jpg',
             category: 'appetizer',
             label:'New',
             price:'1.99',
@@ -34,9 +34,9 @@ export const MAIN_COURSE =
             description:'A quintessential ConFusion experience, is it a vada or is it a donut?'
         },
         {
-            id: 23,
-            name:'PALAK PANEER',
-            image: '/img/mainCourse/palakPaneer.jpg',
+            id: 43,
+            name:'MALTESERS TIRAMISU',
+            image: '/img/desserts/maltesersTiramisu.png',
             category: 'dessert',
             label:'',
             price:'2.99',
@@ -45,9 +45,9 @@ export const MAIN_COURSE =
             description:''
         },
         {
-            id: 24,
-            name:'PANEER BUTTER MASALA',
-            image: '/img/mainCourse/paneerButterMasala.jpg',
+            id: 44,
+            name:'MANGOMISU',
+            image: '/img/desserts/mangomisu.png',
             category: 'dessert',
             label:'',
             price:'2.99',
@@ -56,9 +56,9 @@ export const MAIN_COURSE =
             description:''
         },
         {
-            id: 25,
-            name:'JEERA RICE',
-            image: '/img/mainCourse/jeeraRice.jpg',
+            id: 45,
+            name:'RED VELVET',
+            image: '/img/desserts/redVelvet.jpg',
             category: 'dessert',
             label:'',
             price:'2.99',
@@ -67,9 +67,9 @@ export const MAIN_COURSE =
             description:''
         },
         {
-            id: 26,
-            name:'NAAN ROTI',
-            image: '/img/mainCourse/naanRoti.jpg',
+            id: 46,
+            name:'STRAWBERRY ALMOND CAKE',
+            image: '/img/desserts/strawberryAlmondCake.jpg',
             category: 'dessert',
             label:'',
             price:'2.99',
@@ -78,9 +78,9 @@ export const MAIN_COURSE =
             description:''
         },
         {
-            id: 27,
-            name:'TANDOORI ROTI',
-            image: '/img/mainCourse/tandooriRoti.jpg',
+            id: 47,
+            name:'CHOCLATE MOUSSE',
+            image: '/img/desserts/chocolateMousse.jpg',
             category: 'dessert',
             label:'',
             price:'2.99',
@@ -88,28 +88,7 @@ export const MAIN_COURSE =
             ingredients:'Tomato, Basil, Mozzeralla',
             description:''
         },
-        {
-            id: 28,
-            name:'BIRIYANI',
-            image: '/img/mainCourse/biriyani.jpeg',
-            category: 'dessert',
-            label:'',
-            price:'2.99',
-            featured: false,
-            ingredients:'Tomato, Basil, Mozzeralla',
-            description:''
-        },
-        {
-            id: 29,
-            name:'TAWA ROTI',
-            image: '/img/mainCourse/tawaRoti.jpg',
-            category: 'dessert',
-            label:'',
-            price:'2.99',
-            featured: false,
-            ingredients:'Tomato, Basil, Mozzeralla',
-            description:''
-        }
+        
     ];
 
 

@@ -17,7 +17,7 @@ function RenderMainCourse({dish}){
                     </Media>
                 </Media> <br/>
             </Col>
-            <Col md={2} className="my-auto"> ${ dish.price } </Col>
+            <Col md={2} className="my-auto" style={{fontFamily:"'Dancing Script', cursive", fontSize:"25px", color:"#bd7c7c"}}> ${ dish.price } </Col>
         </Row> 
     )
 }
