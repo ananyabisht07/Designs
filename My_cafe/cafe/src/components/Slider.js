@@ -43,7 +43,7 @@ class Slider extends Component{
                         
                         </Animated>
                     
-                        <p style={{fontSize:"20px", fontWeight:"500" }}>Slide Down <i class="fa fa-angle-down fa-lg"></i></p>
+                        <p style={{fontSize:"20px", fontWeight:"500" }}><a href="#scroll">Slide Down<i class="fa fa-angle-down fa-lg"></i> </a></p>
                     </Carousel.Caption>
                 </Carousel.Item>
                 

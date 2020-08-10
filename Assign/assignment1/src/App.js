@@ -1,20 +1,20 @@
-import React from 'react';
+import React, { Component } from 'react';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'font-awesome/css/font-awesome.min.css';
-import Header from './Components/Header';
-import BusinessPg from './Components/BusinessPg';
-import Footer from './Components/Footer';
+import MainComponent from './Components/MainComponent';
+import { BrowserRouter, } from 'react-router-dom';
 
 
-function App() {
-  return (
-    <div className="">
-      <Header />
-        <BusinessPg />
-      <Footer />
-    </div>
-  );
-}
+class App extends Component {
+
+  render(){
+        return (
+      <BrowserRouter>
+        <MainComponent />
+      </BrowserRouter>
+);
+  }
+  }
 
 export default App;

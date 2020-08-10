@@ -19,8 +19,8 @@ class Home extends Component{
         return(
             <div>
                 <Slider />
-
-                <div className="text-center head-eternity">
+                <div id='scroll' ></div>
+                <div  className="text-center head-eternity">
                     <h2>Discover..</h2>
                     <h1>ETERNITY</h1>
                     <h4>OPENING HOURS</h4>
@@ -40,7 +40,7 @@ class Home extends Component{
                         <Row className="justify-content-center">
                             
                             <Col md={12} lg={6} className="text-center mx-auto  my-auto text-style4" style={{marginTop:"5em",}}>
-                                <h2  className="headings">CATERING TO YOU</h2>
+                                <h2  className="headings">Catering to you</h2>
                                 <div  className="seperator "> </div>
                                 <p style={{marginTop:30}}>
                                     Whether you are looking for a special lunch to reward your team for its hard work, or to impress an important 
@@ -78,7 +78,7 @@ class Home extends Component{
                     <Container >
                         <Row className="justify-content-center">
                             <Col md={12} lg={6} className=" text-center mx-auto ml-auto my-auto text-style3">
-                                <h2 data-aos="fade-right" className="headings">HOST YOUR NEXT EVENT</h2>
+                                <h2 data-aos="fade-right" className="headings">Host your next event</h2>
                                 <div data-aos="fade-right" className="seperator "> </div>
                                 <p data-aos="fade-left" style={{marginTop:30}} >
                                     ilili specializes in Private Parties, Corporate and Press Events, Weddings and other celebrations for groups
@@ -101,7 +101,7 @@ class Home extends Component{
                                 <Image className="media-img4 img-animation" src="img/21.jpg" alt="img" width="550" height="500"/> 
                             </Col>
                             <Col md={12} lg={6} className="text-center mx-auto  my-auto text-style4" style={{marginTop:"5em",}}>
-                                <h2  className="headings">CATERING TO YOU</h2>
+                                <h2  className="headings">Catering to you</h2>
                                 <div  className="seperator "> </div>
                                 <p style={{marginTop:30}}>
                                     Whether you are looking for a special lunch to reward your team for its hard work, or to impress an important 

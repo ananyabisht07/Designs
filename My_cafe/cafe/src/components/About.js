@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import './Functions'
-import { Container, Row, Col } from 'react-bootstrap'
+import { Container, Row, Col, Button } from 'react-bootstrap'
 import Footer from './Footer';
 
 class About extends Component{
@@ -136,7 +136,7 @@ class About extends Component{
                             
                             <Col md={6} className="mx-auto text-center">
                                 <div className="media-OurPeople text-style6">
-                                    <h2  className="headings">OUR PEOPLE</h2>
+                                    <h2  className="headings">Our people</h2>
                                     <div  className="seperator "> </div>
                                     <p>ilili is a place for family, the one you’re born into and the one you create around food, love and 
                                         friendship. Our attentive staff ensures that your entire dining experience with us is stellar from 
@@ -157,7 +157,7 @@ class About extends Component{
                             </Col>
                             <Col md={6} className=" mx-auto text-center">
                                 <div className="media-OurFood  text-style5 ">
-                                    <h2  className="headings">OUR FOOD</h2>
+                                    <h2  className="headings">Our food</h2>
                                     <div  className="seperator "> </div>
                                     <p>Every dish at ilili has it's own story from the traditional recipes direct from Lebanon, to modern 
                                     updates that tell the history of our team, of our cooks and chefs who have left their mark on our kitchen,
@@ -168,6 +168,12 @@ class About extends Component{
                             </Col>
                         </Row>
                     </Container>
+
+                    <div>    
+                        <Button className="button1" > CLICK ME</Button>
+                        <p className="p1"> Hello</p>
+                    </div>
+
                 </div>
                 <Footer />
             </div>

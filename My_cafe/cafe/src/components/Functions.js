@@ -1,6 +1,7 @@
 import $ from 'jquery'
 
 
+
 $(window).scroll(function(){
     var wScroll = $(this).scrollTop();
     $('.img1').css({
@@ -38,4 +39,8 @@ $(window).scroll(function(){
     $('.img11').css({
         'transform' : 'translate(0px, -'+ wScroll /15 +'%)'
     })
+
+    $( ".button1" ).click(function() {
+        $( ".p1" ).slideToggle( "slow" );
+      });
    });
