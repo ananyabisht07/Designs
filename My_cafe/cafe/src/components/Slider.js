@@ -78,7 +78,7 @@ class Slider extends Component{
                     />
                     <Carousel.Caption>
                         <Animated animationIn="slideInLeft" animationInDuration={2000}>
-                        <h3>First slide label</h3>
+                        
                         </Animated>
                         <p style={{fontSize:"20px", fontWeight:"500" }}>Slide Down <i className="fa fa-angle-down fa-lg"></i></p>
                     </Carousel.Caption>
@@ -115,7 +115,7 @@ class Slider extends Component{
                     />
                     <Carousel.Caption>
                         <Animated animationIn="slideInLeft" animationInDuration={3000}>
-                            <h3>Second slide label</h3>
+                            
                         </Animated>
                         <p style={{fontSize:"20px", fontWeight:"500" }}>Slide Down <i className="fa fa-angle-down fa-lg"></i></p>
                     </Carousel.Caption>
@@ -153,7 +153,7 @@ class Slider extends Component{
                     />
                     <Carousel.Caption>
                     <Animated animationIn="slideInLeft" animationInDuration={3000}>
-                    <h3>Third slide label</h3>                    
+                                     
                     </Animated>
                     <p style={{fontSize:"20px", fontWeight:"500" }}>Slide Down <i className="fa fa-angle-down fa-lg"></i></p>
                     </Carousel.Caption>
@@ -168,15 +168,13 @@ class Slider extends Component{
                     </Animated>
 
 
-                    <Container>
+                    <Container >
                         <Animated animationIn="zoomInDown" animationInDuration={3000}>
-                            <Row className="" >
-                                <Col md={6} className="text-center">
+                            <Row className="justufy-content-center" >
+                                <Col md={6} className="text-center my-auto">
                                         <div className="slide__text">
-                                            <h2 className="slide__text-heading">Project Name 4</h2>
-                                            <p className="slide__text-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio veniam minus illo 
-                                            debitis nihil animi facere, doloremque voluptate tempore quia. Lorem ipsum dolor sit amet, consectetur adipisicing 
-                                            elit. Distinctio veniam minus illo debitis nihil animi facere, doloremque voluptate tempore quia.</p>
+                                            <h2 className="slide__text-heading">Exquisite cuisine</h2>
+                                            <h1 className="slide__text-desc">A FEAST TO YOUR SENSES</h1>
                                         </div>
                                 </Col>
                             </Row>
@@ -191,7 +189,7 @@ class Slider extends Component{
                     />
                     <Carousel.Caption>
                     <Animated animationIn="slideInLeft" animationInDuration={3000}>
-                    <h3>Third slide label</h3>                    
+                             
                     </Animated>
                     <p style={{fontSize:"20px", fontWeight:"500" }}>Slide Down <i className="fa fa-angle-down fa-lg"></i></p>
                     </Carousel.Caption>

@@ -211,7 +211,8 @@ min-height: 1500px;
 
 }
 .img-animation:hover {
-  transform: scale(1.1);
+  transform: scale(1.3);
+  z-index: 10;
 }
 .seperator {
   margin: 25px 0;
@@ -245,27 +246,7 @@ min-height: 1500px;
   padding: 20px; */
 }
 
-.text-style3{
-  color: rgb(241, 231, 231) !important;
-  font-family: 'Times New Roman', Times, serif;
-  font-size: 24px;
-  background: rgb(163, 128, 128);
-  /* left: 180px;
-  padding: 20px;
-  z-index: 1;
-  height: 430px; */
-}
 
-.text-style4{
-  color: rgb(241, 231, 231) !important;
-  font-family: 'Times New Roman', Times, se rif;
-  font-size: 24px;
-  background: rgb(163, 128, 128);
-  /* right: 250px;
-  z-index: 1;
-  padding: 20px;
-  height: 317px; */
-}
 
 .headings{
   color: rgb(241, 231, 231);
@@ -818,6 +799,101 @@ min-height: 1500px;
 
   
 /* Menu */
+
+.header-box7{
+  position: relative;
+  height: 700px;
+  background: url(/img/bg2.jpg) no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.collageImg1{
+  height: 350px;
+  width: 250px;
+  position: absolute;
+  background-repeat: no-repeat;
+  margin-left:10px;
+  top: 100px;
+  z-index: 1;
+}
+
+.collageImg2{
+  height: 300px;
+  width: 500px;
+  position: absolute;
+  background-repeat: no-repeat;
+  left:230px;
+  top: 20px;
+  z-index: 0;
+}
+.collageImg3{
+  height: 200px;
+  width: 200px;
+  position: absolute;
+  background-repeat: no-repeat;
+  left:50px;
+  top: 430px;
+  z-index: 2;
+}
+
+.collageImg4{
+  height: 300px;
+  width: 400px;
+  position: absolute;
+  background-repeat: no-repeat;
+  left:765px;
+  top: 20px;
+  z-index: 2;
+}
+
+.collageImg5{
+  height: 400px;
+  width: 300px;
+  position: absolute;
+  background-repeat: no-repeat;
+  left:1200px;
+  top: 50px;
+  z-index: 4;
+}
+
+.collageImg6{
+  height: 400px;
+  width: 300px;
+  position: absolute;
+  background-repeat: no-repeat;
+  left:940px;
+  top: 300px;
+  z-index: 2;
+}
+
+.collageImg7{
+  height: 380px;
+  width: 260px;
+  position: absolute;
+  background-repeat: no-repeat;
+  left:270px;
+  top: 320px;
+  z-index: 0;
+}
+.collageImg8{
+  height: 280px;
+  width: 390px;
+  position: absolute;
+  background-repeat: no-repeat;
+  left:540px;
+  top: 340px;
+  z-index: 2;
+}
+
+.collageImg9{
+  height: 200px;
+  width: 200px;
+  position: absolute;
+  background-repeat: no-repeat;
+  left:1260px;
+  top: 430px;
+  z-index: 5;
+}
 
 .img13{
   height: 200px;
