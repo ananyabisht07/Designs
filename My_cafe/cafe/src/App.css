@@ -154,6 +154,15 @@ min-height: 1500px;
   object-fit: contain !important;
   height: 700px;
 }
+
+.bg-img4{
+  margin-top: 8em;
+  position: relative;
+  margin-bottom: 4em;
+  background: url(/img/57.jpg);
+  object-fit: contain !important;
+  height: 600px;
+}
 .bg-img1 h2{
   position: absolute;
   color: #c0ad50;
@@ -810,14 +819,154 @@ min-height: 1500px;
   
 /* Menu */
 
+.img13{
+  height: 200px;
+  width: 240px;
+  background-image: url(/img/47.png);
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left:-20px;
+  top: 1300px;
+  
+}
+
+.img14{
+  height: 200px;
+  width: 200px;
+  background-image: url(/img/46.png);
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left:1300px;
+  top: 1100px;
+  
+}
+.img15{
+  height: 200px;
+  width: 310px;
+  background-image: url(/img/48.png);
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left:1180px;
+  top: 2670px;
+  
+}
+.img16{
+  height: 200px;
+  width: 200px;
+  background-image: url(/img/50.png);
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left:-20px;
+  top: 3500px;
+  
+}
+
+.img17{
+  height: 200px;
+  width: 200px;
+  background-image: url(/img/51.png);
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left:20px;
+  top: 5000px;
+  
+}
+.img18{
+  height: 200px;
+  width: 200px;
+  background-image: url(/img/52.png);
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left:1200px;
+  top: 6000px;
+  
+}
+.img19{
+  height: 200px;
+  width: 270px;
+  background-image: url(/img/53.png);
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left:1200px;
+  top: 1300px;
+  
+}
+.img20{
+  height: 200px;
+  width: 374px;
+  background-image: url(/img/54.png);
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left:980px;
+  top: 2850px;
+  
+}
+
 .header-box4{
   position: relative;
-  height: 650px;
+  height: 550px;
   background: url(/img/42.jpg) no-repeat;
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
   overflow: hidden;
+}
+.header-box5{
+  position: relative;
+  height: 550px;
+  background: url(/img/indian_food.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  overflow: hidden;
+  opacity: 0.5;
+}
+
+.header-box6{
+  position: relative;
+  height: 550px;
+  background: url(/img/dessert.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  overflow: hidden;
+  opacity: 0.5;
+}
+
+.page-enter {
+  opacity: 0.01;
+  transform: translateX(-100%);
+}
+
+.page-enter-active {
+  opacity: 1;
+  transform: translateX(0%);
+  transition: all 300ms ease-in;
+}
+
+.page-exit {
+  opacity: 1;
+  transform: translateX(0%);
+}
+
+.page-exit-active {
+  opacity: 0.01;
+  transform: translateX(100%);
+  transition: all 300ms ease-out;
+}
+
+
+.carouselCatering{
+  color: rgb(236, 208, 208);
+  background: rgb(0, 0, 0);
 }
    
 

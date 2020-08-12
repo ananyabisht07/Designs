@@ -35,7 +35,7 @@ class StartersComponent extends Component{
             );
         });
         return(
-            <div>
+            <div style={{ marginBottom:"5em"}}>
                 <Container>
                         <div className="text-center" style={{marginTop:"4em", marginBottom:"3em"}}>
                             <h2 style={{fontFamily:"'Dancing Script', cursive", fontSize:"3em", color:"#bd7c7c"}}>For Start</h2>

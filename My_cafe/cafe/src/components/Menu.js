@@ -18,10 +18,22 @@ class Menu extends Component{
                 <div className="header-box4" ></div>
                 <Container>
                     <StartersComponent />
-
-                    <MainCourseComponent />
-
-                    <DessertsComponent />
+                </Container>
+                <div className="img13"></div>
+                <div className="img14"></div>
+                <div className="img15"></div>
+                <div className="img16"></div>
+                <div className="img17"></div>
+                <div className="img18"></div>
+                <div className="img19"></div>
+                <div className="img20"></div>
+                <div className="header-box5" ></div>
+                <Container>
+                    <MainCourseComponent />                
+                </Container>
+                <div className="header-box6" ></div>
+                <Container>
+                    <DessertsComponent />                       
                 </Container>
                 <Footer />
             </div>

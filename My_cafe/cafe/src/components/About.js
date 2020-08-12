@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import './Functions'
-import { Container, Row, Col, Button } from 'react-bootstrap'
+import { Container, Row, Col,} from 'react-bootstrap'
 import Footer from './Footer';
 
 class About extends Component{

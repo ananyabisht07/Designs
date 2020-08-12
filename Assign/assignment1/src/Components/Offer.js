@@ -42,7 +42,7 @@ function Offer(){
                                 <Card.Text> REDEEM </Card.Text>  
                                 <CSSTransition 
                                     in={showMessage} 
-                                    timeout={400} 
+                                    timeout={1500} 
                                     classNames="alert" 
                                     unmountOnExit
                                     onEnter={() => setShowButton(false)}

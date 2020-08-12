@@ -12,14 +12,14 @@ class Slider extends Component{
             <Carousel className="carou">
             <Carousel.Item className="carouItem">
 
-                    <Animated animationIn="slideInLeft" animationInDuration="2000">
+                    <Animated animationIn="slideInLeft" animationInDuration={2000}>
                         <svg className="slideOverlay" viewBox="0 0 720 405">
                             <path className="slideOverlay-fill5" d="M0,0 250,0 700,405 0,405"  />
                         </svg>
                     </Animated>
 
                     <Container>
-                        <Animated animationIn="fadeInUp" animationInDuration="5000">
+                        <Animated animationIn="fadeInUp" animationInDuration={5000}>
                             <Row className="" >
                                 <Col md={6} className="text-center">
                                     <div className="slide__text1">
@@ -39,25 +39,25 @@ class Slider extends Component{
                         alt="First slide"
                     />
                     <Carousel.Caption>
-                        <Animated animationIn="slideInLeft" animationInDuration="2000">
+                        <Animated animationIn="slideInLeft" animationInDuration={2000}>
                         
                         </Animated>
                     
-                        <p style={{fontSize:"20px", fontWeight:"500" }}><a href="#scroll">Slide Down<i class="fa fa-angle-down fa-lg"></i> </a></p>
+                        <p style={{fontSize:"20px", fontWeight:"500" }}>Slide Down<i className="fa fa-angle-down fa-lg"></i> </p>
                     </Carousel.Caption>
                 </Carousel.Item>
                 
 
                 <Carousel.Item className="carouItem">
 
-                    <Animated animationIn="slideInLeft" animationInDuration="2000">
+                    <Animated animationIn="slideInLeft" animationInDuration={2000}>
                         <svg className="slideOverlay" viewBox="0 0 720 405">
                             <path className="slideOverlay-fill1" d="M0,0 250,0 700,405 0,405"  />
                         </svg>
                     </Animated>
 
                     <Container>
-                        <Animated animationIn="zoomInDown" animationInDuration="3000">
+                        <Animated animationIn="zoomInDown" animationInDuration={3000}>
                             <Row className="" >
                                 <Col md={6} className="text-center">
                                     <div className="slide__text">
@@ -77,23 +77,23 @@ class Slider extends Component{
                         alt="First slide"
                     />
                     <Carousel.Caption>
-                        <Animated animationIn="slideInLeft" animationInDuration="2000">
+                        <Animated animationIn="slideInLeft" animationInDuration={2000}>
                         <h3>First slide label</h3>
                         </Animated>
-                        <p style={{fontSize:"20px", fontWeight:"500" }}>Slide Down <i class="fa fa-angle-down fa-lg"></i></p>
+                        <p style={{fontSize:"20px", fontWeight:"500" }}>Slide Down <i className="fa fa-angle-down fa-lg"></i></p>
                     </Carousel.Caption>
                 </Carousel.Item>
                 
 
                 <Carousel.Item className="carouItem">
-                    <Animated animationIn="slideInLeft" animationInDuration="2000">
+                    <Animated animationIn="slideInLeft" animationInDuration={2000}>
                         <svg className="slideOverlay" viewBox="0 0 720 405">
                             <path className="slideOverlay-fill2" d="M0,0 250,0 700,405 0,405"  />
                         </svg>
                     </Animated>
 
                     <Container>
-                        <Animated animationIn="zoomInDown" animationInDuration="3000">
+                        <Animated animationIn="zoomInDown" animationInDuration={3000}>
                             <Row className="" >
                                 <Col md={6} className="text-center">
                                         <div className="slide__text">
@@ -114,16 +114,16 @@ class Slider extends Component{
                         alt="Third slide"
                     />
                     <Carousel.Caption>
-                        <Animated animationIn="slideInLeft" animationInDuration="3000">
+                        <Animated animationIn="slideInLeft" animationInDuration={3000}>
                             <h3>Second slide label</h3>
                         </Animated>
-                        <p style={{fontSize:"20px", fontWeight:"500" }}>Slide Down <i class="fa fa-angle-down fa-lg"></i></p>
+                        <p style={{fontSize:"20px", fontWeight:"500" }}>Slide Down <i className="fa fa-angle-down fa-lg"></i></p>
                     </Carousel.Caption>
                 </Carousel.Item>
 
 
                 <Carousel.Item className="carouItem">
-                    <Animated animationIn="slideInLeft" animationInDuration="3000">
+                    <Animated animationIn="slideInLeft" animationInDuration={3000}>
                         <svg className="slideOverlay" viewBox="0 0 720 405">
                             <path className="slideOverlay-fill3" d="M0,0 250,0 700,405 0,405"  />
                         </svg>
@@ -131,7 +131,7 @@ class Slider extends Component{
 
 
                     <Container>
-                        <Animated animationIn="zoomInDown" animationInDuration="3000">
+                        <Animated animationIn="zoomInDown" animationInDuration={3000}>
                             <Row className="" >
                                 <Col md={6} className="text-center">
                                         <div className="slide__text">
@@ -152,16 +152,16 @@ class Slider extends Component{
                         alt="Third slide"
                     />
                     <Carousel.Caption>
-                    <Animated animationIn="slideInLeft" animationInDuration="3000">
+                    <Animated animationIn="slideInLeft" animationInDuration={3000}>
                     <h3>Third slide label</h3>                    
                     </Animated>
-                    <p style={{fontSize:"20px", fontWeight:"500" }}>Slide Down <i class="fa fa-angle-down fa-lg"></i></p>
+                    <p style={{fontSize:"20px", fontWeight:"500" }}>Slide Down <i className="fa fa-angle-down fa-lg"></i></p>
                     </Carousel.Caption>
                 </Carousel.Item>
 
 
                 <Carousel.Item className="carouItem">
-                    <Animated animationIn="slideInLeft" animationInDuration="3000">
+                    <Animated animationIn="slideInLeft" animationInDuration={3000}>
                         <svg className="slideOverlay" viewBox="0 0 720 405">
                             <path className="slideOverlay-fill4" d="M0,0 250,0 700,405 0,405"  />
                         </svg>
@@ -169,7 +169,7 @@ class Slider extends Component{
 
 
                     <Container>
-                        <Animated animationIn="zoomInDown" animationInDuration="3000">
+                        <Animated animationIn="zoomInDown" animationInDuration={3000}>
                             <Row className="" >
                                 <Col md={6} className="text-center">
                                         <div className="slide__text">
@@ -190,10 +190,10 @@ class Slider extends Component{
                         alt="Third slide"
                     />
                     <Carousel.Caption>
-                    <Animated animationIn="slideInLeft" animationInDuration="3000">
+                    <Animated animationIn="slideInLeft" animationInDuration={3000}>
                     <h3>Third slide label</h3>                    
                     </Animated>
-                    <p style={{fontSize:"20px", fontWeight:"500" }}>Slide Down <i class="fa fa-angle-down fa-lg"></i></p>
+                    <p style={{fontSize:"20px", fontWeight:"500" }}>Slide Down <i className="fa fa-angle-down fa-lg"></i></p>
                     </Carousel.Caption>
                 </Carousel.Item>
 

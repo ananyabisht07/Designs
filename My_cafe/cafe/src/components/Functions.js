@@ -40,7 +40,27 @@ $(window).scroll(function(){
         'transform' : 'translate(0px, -'+ wScroll /15 +'%)'
     })
 
-    $( ".button1" ).click(function() {
-        $( ".p1" ).slideToggle( "slow" );
-      });
+    $('.img13').css({
+        'transform' : 'translate(0px, -'+ wScroll /10 +'%)'
+    })
+
+    $('.img14').css({
+        'transform' : 'translate(0px, -'+ wScroll /5 +'%)'
+    })
+
+    $('.img15').css({
+        'transform' : 'translate(0px, -'+ wScroll /7 +'%)'
+    })
+
+    $('.img16').css({
+        'transform' : 'translate(0px, -'+ wScroll /5 +'%)'
+    })
+
+    $('.img17').css({
+        'transform' : 'translate(0px, -'+ wScroll /5 +'%)'
+    })
+    $('.img18').css({
+        'transform' : 'translate(0px, -'+ wScroll /5 +'%)'
+    })
+    
    });

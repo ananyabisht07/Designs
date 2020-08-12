@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Jumbotron, Card, Container, Row, Col, Button } from 'react-bootstrap';
 
+//this.state.clicked?"my-auto move_to":"my-auto"
 
 class BusinessPg extends Component{
 
@@ -10,9 +11,40 @@ class BusinessPg extends Component{
             bgColor1:false,
             bgColor2:false,
             bgColor3:false,
+            move: null,
+            left: 0,
+            currIndex: 0,
+            width:null,
+            clicked:false
         }
-        
+        this.whenRresize = this.whenRresize.bind(this);
     }
+
+    whenRresize() {
+        const { currIndex } = this.state;
+        const width = document.getElementById("Cal").clientWidth;
+        this.setState({ left: width * 0.337 * currIndex });
+      }
+    
+      componentDidMount() {
+        window.addEventListener("resize", this.whenRresize);
+      }
+    
+      dateSelect(index) {
+        var { width } = this.state;
+        if (!width) {
+          width = document.getElementById("Cal").clientWidth;
+        }
+    
+        this.setState({
+          move: "right",
+          left: width * 0.337 * index,
+          currIndex: index,
+          clicked:true
+        });
+    }
+
+    
     
     onClick = () => this.props.history.push("/offer");
 
@@ -45,6 +77,9 @@ class BusinessPg extends Component{
     
 
     render(){
+        
+
+        const {move, left, clicked } = this.state;
         return(
             <div>
                 <Jumbotron className="jumbo"></Jumbotron>
@@ -70,43 +105,49 @@ class BusinessPg extends Component{
     
                     <h1 className="headings" style={{marginTop:"2em"}}>Offers</h1>
     
-                    <div className="">
-                        <Card className="card-style4" >
-                            <Card.Body >
-                                <Row className=" justify-content-center">
-                                    <Col xs={4} className="text-center">
-                                        <div 
-                                            className={this.state.bgColor1 ? "my-auto card-style5":"my-auto"}
-                                            onClick={this.OnClickBg1}
-                                            style={{cursor:"pointer", color:"#5C5C5C"}}>
-
-                                            <h5>WED</h5>
-                                            <h6>JUL 26</h6> 
-                                        </div>
-                                    </Col>
-                                    <Col xs={4}  className="my-auto text-center">
-                                        <div  
-                                            className={this.state.bgColor2 ? "my-auto card-style5":"my-auto"} 
-                                            onClick={this.OnClickBg2}
-                                            style={{cursor:"pointer", color:"#5C5C5C"}}>
-                                            <h5>WED</h5>
-                                            <h6>JUL 26</h6> 
-                                        </div>
-                                    </Col>
-                                    <Col xs={4}  className=" my-auto text-center">
-                                        <div  
-                                            className={this.state.bgColor3 ? "my-auto card-style5":"my-auto"} 
-                                            onClick={this.OnClickBg3}
-                                            style={{cursor:"pointer", color:"#5C5C5C"}}>
-                                            <h5>WED</h5>
-                                            <h6>JUL 26</h6> 
-                                        </div>
-                                    </Col>
-                                </Row>
-                            </Card.Body>
-                        </Card>
-                    </div>
+                    
     
+                    <Card style={{marginBottom:"2em",background:"#FFEC50",borderRadius:"13px",color:"#000"}} className="myDates" id="Cal">
+                        <Card.Body>
+                        <Row className="justify-content-center">
+                            <Col
+                                xs={4}
+                                className="text-center"
+                                onClick={() => this.dateSelect(0)}>
+                                    <div style={{ cursor: "pointer", }}>
+                                        <h5>WED</h5>
+                                        <h6>JUL 26</h6>
+                                    </div>
+                            </Col>
+                            <Col
+                                xs={4}
+                                className={this.state.clicked ? "my-auto text-center textColor":"my-auto text-center"}
+                                onClick={() => this.dateSelect(1)}>
+                                    <div
+                                        className="my-auto"
+                                        style={{ cursor: "pointer", }}>
+                                            <h5>THU</h5>
+                                            <h6>JUL 27</h6>
+                                    </div>
+                            </Col>
+                            <Col
+                                xs={4}
+                                className=" my-auto text-center"
+                                onClick={() => this.dateSelect(2)}>
+                                    <div
+                                        className="my-auto"
+                                        style={{ cursor: "pointer", }}>
+                                            <h5>FRI</h5>
+                                            <h6>JUL 28</h6>
+                                    </div>
+                            </Col>
+                        </Row>
+                        <div className={move? move === "right"? "selectedBox move-right": "selectedBox move-left": "selectedBox"}
+                            style={{position: "absolute",top: 0,left: left,height: 100,width: "33%",}}>
+                        </div>
+
+                        </Card.Body>
+                  </Card>
     
                     <Row className="justify-content-center">
                         <Col xs={12} sm={12}>
@@ -130,33 +171,47 @@ class BusinessPg extends Component{
                     </Row>
                     
                     <h1 className="headings" style={{marginTop:"100px"}}>Events</h1>
-    
-                    <div className="">
-                        <Card className="card-style4">
-                            <Card.Body >
-                                <Row className=" justify-content-center">
-                                    <Col xs={4} className="text-center">
-                                        <div className="my-auto card-style5">
-                                            <h5>WED</h5>
-                                            <h6>JUL 26</h6> 
-                                        </div>
-                                    </Col>
-                                    <Col xs={4}  className="my-auto text-center">
-                                        <div  className="sub-headings">
-                                            <h4>WED</h4>
-                                            <h5>JUL 26</h5> 
-                                        </div>
-                                    </Col>
-                                    <Col xs={4}  className=" my-auto text-center">
-                                        <div  className="sub-headings">
-                                            <h4>WED</h4>
-                                            <h5>JUL 26</h5> 
-                                        </div>
-                                    </Col>
-                                </Row>
-                            </Card.Body>
-                        </Card>
+                    <Card style={{marginBottom:"2em",background:"#FFF281",borderRadius:"13px",color:"#000"}} className="myDates" id="Cal">
+                    <Card.Body>
+                    <Row className="justify-content-center">
+                        <Col
+                            xs={4}
+                            className="text-center"
+                            onClick={() => this.dateSelect(0)}>
+                                <div style={{ cursor: "pointer", }}>
+                                    <h5>WED</h5>
+                                    <h6>JUL 26</h6>
+                                </div>
+                        </Col>
+                        <Col
+                            xs={4}
+                            className={this.state.clicked ? "my-auto text-center textColor":"my-auto text-center"}
+                            onClick={() => this.dateSelect(1)}>
+                                <div
+                                    className="my-auto"
+                                    style={{ cursor: "pointer", }}>
+                                        <h5>THU</h5>
+                                        <h6>JUL 27</h6>
+                                </div>
+                        </Col>
+                        <Col
+                            xs={4}
+                            className=" my-auto text-center"
+                            onClick={() => this.dateSelect(2)}>
+                                <div
+                                    className="my-auto"
+                                    style={{ cursor: "pointer", }}>
+                                        <h5>FRI</h5>
+                                        <h6>JUL 28</h6>
+                                </div>
+                        </Col>
+                    </Row>
+                    <div className={move? move === "right"? "selectedBox move-right": "selectedBox move-left": "selectedBox"}
+                        style={{position: "absolute",top: 0,left: left,height: 100,width: "33%",}}>
                     </div>
+
+                    </Card.Body>
+              </Card>
     
                     <Row className="justify-content-center">
                         <Col xs={12} sm={12}>
@@ -180,7 +235,7 @@ class BusinessPg extends Component{
                                 </Card.Body>
                         </Col>
                     </Row>
-    
+
                     
     
                 </Container>

@@ -134,7 +134,7 @@
 .alert-enter-active {
   opacity: 1;
   transform: translateX(0);
-  transition: opacity 300ms, transform 300ms;
+  transition: opacity 1500ms, transform 1500ms;
 }
 .alert-exit {
   opacity: 1;
@@ -142,7 +142,7 @@
 .alert-exit-active {
   opacity: 0;
   transform: scale(0.9);
-  transition: opacity 300ms, transform 300ms;
+  transition: opacity 1500ms, transform 1500ms;
 }
 
 .card-style5{
@@ -196,4 +196,20 @@ background-color: #FFF281;
   opacity: 0.01;
   transform: translateX(100%);
   transition: all 300ms ease-out;
+}
+
+
+.selectedBox {
+  border: 9px solid #fccd24;
+  background: #ffeb5083;
+  color: #221e1e !important;
+  border-radius: 9px;
+}
+
+.move-right {
+  transition-duration: 700ms;
+}
+
+.move-left {
+  transition-duration: 700ms;
 }
